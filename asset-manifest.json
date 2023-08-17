@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/VuAnhThanhThao.github.io/static/css/main.e6c13ad2.css",
+    "main.js": "/VuAnhThanhThao.github.io/static/js/main.ec1b61d4.js",
+    "static/js/787.6754f0d5.chunk.js": "/VuAnhThanhThao.github.io/static/js/787.6754f0d5.chunk.js",
+    "index.html": "/VuAnhThanhThao.github.io/index.html",
+    "main.e6c13ad2.css.map": "/VuAnhThanhThao.github.io/static/css/main.e6c13ad2.css.map",
+    "main.ec1b61d4.js.map": "/VuAnhThanhThao.github.io/static/js/main.ec1b61d4.js.map",
+    "787.6754f0d5.chunk.js.map": "/VuAnhThanhThao.github.io/static/js/787.6754f0d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.ec1b61d4.js"
+  ]
+}
