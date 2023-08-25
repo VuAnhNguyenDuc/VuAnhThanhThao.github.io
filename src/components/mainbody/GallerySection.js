@@ -49,6 +49,9 @@ export default class GallerySection extends Component {
                         </div>
                     ))}
                 </OwlCarousel>
+                <div className="text-center" style={{ paddingTop: `100px` }}>
+                    <a className="btn btn-primary font-weight-bold py-3 px-5" target="_blank" rel="noreferrer" href={gallery.album.href}>{gallery.album.title.toUpperCase()}</a>
+                </div>
             </div>
         );
     }
