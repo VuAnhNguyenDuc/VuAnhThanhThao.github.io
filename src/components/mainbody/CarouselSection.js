@@ -27,6 +27,7 @@ export default class CarouselSection extends Component {
                             </div>
                         ))}
                     </div>
+                    {/**
                     <a className="carousel-control-prev justify-content-start" href="#header-carousel" data-slide="prev">
                         <div className="btn btn-primary px-0" style={{ width: `68px`, height: `68px` }}>
                             <span className="carousel-control-prev-icon mt-3"></span>
@@ -37,6 +38,7 @@ export default class CarouselSection extends Component {
                             <span className="carousel-control-next-icon mt-3"></span>
                         </div>
                     </a>
+                    */}
                 </div>
             </div>
         );

@@ -42,8 +42,7 @@
       "weddingdate": "08-10-2023",
       "slideshow": "https://www.youtube.com/embed/U6C9VCdHAnY",
       "images": [
-        "https://lh3.googleusercontent.com/pw/AIL4fc9KCFsS4peKL6xMt8hdaW7nkh42h5sXorXy_-vdtN383ErPbqr43gDMZpeddL1STcxCtuVO_Y7SoT25CHG9XAkjUCBRIhHTnrFtoO-2x70I2BP45Dk=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc-T1R8KV87I04c6v289_PQA8kht1e11uoKtE_s2YiGWbc3DBujrwwxmsWRMV1_M8Vrf7KBQFPnmlYhaHijbYY5PDgpDNT8Nuy7Lq-VTC2OGVsyTOQU=w2400"
+        "https://lh3.googleusercontent.com/pw/AIL4fc9KCFsS4peKL6xMt8hdaW7nkh42h5sXorXy_-vdtN383ErPbqr43gDMZpeddL1STcxCtuVO_Y7SoT25CHG9XAkjUCBRIhHTnrFtoO-2x70I2BP45Dk=w2400"
       ]
     },
     "about": {
@@ -114,20 +113,20 @@
       "description:" : "Clita ipsum aliquyam dolor diam dolores elitr nonumy. Rebum sea vero ipsum eirmod tempor kasd. Diam amet lorem erat eos sit lorem elitr justo",
       "items": [
         {
-          "title": "Đám hỏi",
-          "address": "Nhơn Trạch - Đồng Nai",
-          "datetime": "06/10/2023 - 07:00AM",
+          "title": "Đám hỏi - 06/10/2023",
+          "address": "Nhà Gái - Nhơn Trạch",
+          "datetime": "07:00AM",
           "image": "https://lh3.googleusercontent.com/pw/AIL4fc8dZrxDpydkNynJcw9XJ3R2KHqtfbNrwTfcPwr5yJqKpXpLYB9_LYavuX8nE8sVENCAqeNSOj6Do4hee9gTsABnRuZ9LBPEjo7MMelCJF9igq0Z2ZY=w2400"
         },
         {
-          "title": "Lễ cưới - Tiệc cưới nhà gái",
-          "address": "Nhơn Trạch - Đồng Nai",
+          "title": "Tiệc nhà gái - 07/10/2023",
+          "address": "Giáo Xứ Bắc Thần - Nhơn Trạch",
           "datetime": "07/10/2023 - 09:00AM",
           "image": "https://lh3.googleusercontent.com/pw/AIL4fc9Fn3ESlzrldQhleIbr4A5fg6b_3lw9plnuMg-QOimy570Iy9XxWIEIA1-gTOfCm_Xyvwlo5HpHNElVqFpt5ic8tjWQ0_NfnLO2PKznUHhzCmUDu8s=w2400"
         },
         {
-          "title": "Rước dâu - Tiệc cưới nhà trai",
-          "address": "Sài Gòn",
+          "title": "Tiệc nhà trai - 08/10/2023",
+          "address": "Adora Hoàng Văn Thụ - Sài Gòn",
           "datetime": "08/10/2023 - 07:00PM",
           "image": "https://lh3.googleusercontent.com/pw/AIL4fc80XVTJTnaf6WkaadM7KH3GeYNF-_L0y2UsgN0IeI7B0WrRi2L2_RcbH4saTX4Zlow68eq2ksRQI3qrB1G9n8z0stodsZWi-N-ViIcXXCse7hxqepI=w2400"
         }
