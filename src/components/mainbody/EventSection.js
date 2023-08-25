@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import axios from 'axios';
 import data from "../../data.json";
 
 const event = data.event;

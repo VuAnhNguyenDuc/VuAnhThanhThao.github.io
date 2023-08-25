@@ -52,7 +52,7 @@ export default class StorySection extends Component {
                     </div>
                     <div className="container timeline position-relative p-0">
                         {story.items.map((item, index) => (
-                            <Element item={item} index={index}/>
+                            <Element item={item} index={index} key={index}/>
                         ))}
                     </div>
                 </div>
