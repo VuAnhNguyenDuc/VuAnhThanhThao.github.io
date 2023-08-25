@@ -21,11 +21,15 @@ export default class EventSection extends Component {
                     <div className="row">
                         {event.items.map((item, index) => (
                             <div className={index === event.items.length - 1 ? "col-md-4" : "col-md-4 border-right border-primary"} key={index}>
-                                <div className="text-center text-md-right mr-md-3 mb-4 mb-md-0">
+                                <div className="text-center text-md-center mr-md-3 mb-4 mb-md-0">
                                     <img className="img-fluid mb-4" src={item.image} alt={item.title}/>
                                     <h4 className="mb-3">{item.title}</h4>
-                                    <p className="mb-2">{item.address}</p>
+                                    <h5 className="mb-2">{item.address}</h5>
+                                    <a className="mb-0" href="https://goo.gl/maps/TTr1LUpKUqdSi2Ya7" target="_blank">Xem Bản Đồ</a>
+                                    {/*
                                     <p className="mb-0">{item.datetime}</p>
+                                    */}
+                                    
                                 </div>
                             </div>
                         ))}               

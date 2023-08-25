@@ -3976,7 +3976,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #E47A2E;
+  text-decoration: underline;
 }
 
 .nav-fill > .nav-link,
@@ -6165,6 +6165,10 @@ button.bg-light:focus {
 
 .bg-dark {
   background-color: #121F38 !important;
+}
+
+.bg-brown {
+  background-color: #d9a83c !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -9522,7 +9526,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #E47A2E;
+  color: #fff;
+  text-decoration: underline;
 }
 
 @media (max-width: 991.98px) {
@@ -9729,7 +9734,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .bg-gallery {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://lh3.googleusercontent.com/pw/AIL4fc84mByzOS-BO0vMxoIgiRwdpJ8gIG-eFi5JfOC_cbsI_SJfAitX5LhOXTjxcP8DMHahXjIxNpbFim5oyW1o0UXlvC6h0suaQPcw54onPFKYSoRWr1Q=w2400'), no-repeat center center;
+  background-color: burlywood;
   background-size: cover;
 }
 
