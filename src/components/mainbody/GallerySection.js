@@ -1,8 +1,15 @@
 import React, { Component } from "react";
 import data from "../../data.json";
 import OwlCarousel from 'react-owl-carousel';
+import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 
 const gallery = data.gallery;
+
+function MasonryGrid(images) {
+    return (
+        <div></div>
+    );
+}
 
 export default class GallerySection extends Component {
     constructor(props) {
