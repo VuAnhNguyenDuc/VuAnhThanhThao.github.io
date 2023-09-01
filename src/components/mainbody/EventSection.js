@@ -25,7 +25,8 @@ export default class EventSection extends Component {
                                     <img className="img-fluid mb-4" src={item.image} alt={item.title}/>
                                     <h4 className="mb-3">{item.title}</h4>
                                     <h5 className="mb-2">{item.address}</h5>
-                                    <a className="mb-0" href="https://goo.gl/maps/TTr1LUpKUqdSi2Ya7" target="_blank">Xem Bản Đồ</a>
+                                    <p className="mb-0">{item.datetime}</p>
+                                    <a className="mb-0" href={item.directions} target="_blank">Xem Bản Đồ</a>
                                     {/*
                                     <p className="mb-0">{item.datetime}</p>
                                     */}
