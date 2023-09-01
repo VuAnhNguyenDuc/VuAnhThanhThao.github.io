@@ -129,20 +129,23 @@
         {
           "title": "Đám hỏi - 06/10/2023",
           "address": "Nhà Gái - Nhơn Trạch",
-          "datetime": "07:00AM",
-          "image": "https://lh3.googleusercontent.com/pw/AIL4fc8dZrxDpydkNynJcw9XJ3R2KHqtfbNrwTfcPwr5yJqKpXpLYB9_LYavuX8nE8sVENCAqeNSOj6Do4hee9gTsABnRuZ9LBPEjo7MMelCJF9igq0Z2ZY=w2400"
+          "datetime": "07:00",
+          "image": "https://lh3.googleusercontent.com/pw/AIL4fc8dZrxDpydkNynJcw9XJ3R2KHqtfbNrwTfcPwr5yJqKpXpLYB9_LYavuX8nE8sVENCAqeNSOj6Do4hee9gTsABnRuZ9LBPEjo7MMelCJF9igq0Z2ZY=w2400",
+          "directions": "https://goo.gl/maps/BVvqR4B5TRXmWmwR8"
         },
         {
           "title": "Tiệc nhà gái - 07/10/2023",
           "address": "Giáo Xứ Bắc Thần - Nhơn Trạch",
-          "datetime": "07/10/2023 - 09:00AM",
-          "image": "https://lh3.googleusercontent.com/pw/AIL4fc9Fn3ESlzrldQhleIbr4A5fg6b_3lw9plnuMg-QOimy570Iy9XxWIEIA1-gTOfCm_Xyvwlo5HpHNElVqFpt5ic8tjWQ0_NfnLO2PKznUHhzCmUDu8s=w2400"
+          "datetime": "09:00",
+          "image": "https://lh3.googleusercontent.com/pw/AIL4fc9Fn3ESlzrldQhleIbr4A5fg6b_3lw9plnuMg-QOimy570Iy9XxWIEIA1-gTOfCm_Xyvwlo5HpHNElVqFpt5ic8tjWQ0_NfnLO2PKznUHhzCmUDu8s=w2400",
+          "directions": "https://goo.gl/maps/kz1aQQyDNeGrXYcB9"
         },
         {
           "title": "Tiệc nhà trai - 08/10/2023",
           "address": "Adora Hoàng Văn Thụ - Sài Gòn",
-          "datetime": "08/10/2023 - 07:00PM",
-          "image": "https://lh3.googleusercontent.com/pw/AIL4fc80XVTJTnaf6WkaadM7KH3GeYNF-_L0y2UsgN0IeI7B0WrRi2L2_RcbH4saTX4Zlow68eq2ksRQI3qrB1G9n8z0stodsZWi-N-ViIcXXCse7hxqepI=w2400"
+          "datetime": "18:00",
+          "image": "https://lh3.googleusercontent.com/pw/AIL4fc80XVTJTnaf6WkaadM7KH3GeYNF-_L0y2UsgN0IeI7B0WrRi2L2_RcbH4saTX4Zlow68eq2ksRQI3qrB1G9n8z0stodsZWi-N-ViIcXXCse7hxqepI=w2400",
+          "directions": "https://goo.gl/maps/dxMpLEcqTeYXA7FF9"
         }
       ]
     },
