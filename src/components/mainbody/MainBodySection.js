@@ -14,27 +14,27 @@ export default class MainBodySection extends Component {
         return (
             <div>
                 {/* Carousel Start */}
-                <CarouselSection />
+                <CarouselSection id="home"/>
                 {/* Carousel End */}
 
                 {/* Video Modal Start */}
-                <VideoModalSection />
+                <VideoModalSection/>
                 {/* Video Modal End */}
 
                 {/* About Start */}
-                <AboutSection />
+                <AboutSection id="about"/>
                 {/* About End */}
 
                 {/* Story Start */}
-                <StorySection />
+                <StorySection id="story"/>
                 {/* Story End */}
 
                 {/* Gallery Start */}
-                <GallerySection />
+                <GallerySection id="gallery"/>
                 {/* Gallery End */}
 
                 {/* Event Start */}
-                <EventSection />
+                <EventSection id="event"/>
                 {/* Event End */}
 
                 {/* Friends & Family Start */}
@@ -42,11 +42,11 @@ export default class MainBodySection extends Component {
                 {/* Friends & Family End */}
 
                 {/* RSVP Start */}
-                <RSVPSection />
+                <RSVPSection id="rsvp"/>
                 {/* RSVP End */}
 
                 {/* Footer Start */}
-                <FooterSection />
+                <FooterSection id="contact"/>
                 {/* Footer End */}
             </div>
         );

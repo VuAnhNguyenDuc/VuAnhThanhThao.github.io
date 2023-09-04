@@ -151,6 +151,24 @@ sup {
   top: -.5em;
 }
 
+.navbar-brand-button {
+  text-decoration: none;
+  background: none!important;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+.navbar-brand-button:active,
+.navbar-brand-button:focus,
+.navbar-brand-button:hover {
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;                     
+}
+
 a {
   color: #E47A2E;
   text-decoration: none;
@@ -160,6 +178,7 @@ a {
 a:hover {
   color: #af5617;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 a:not([href]):not([class]) {

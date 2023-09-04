@@ -6,7 +6,7 @@ const carousel = data.carousel;
 export default class CarouselSection extends Component {
     render() {
         return (
-            <div className="container-fluid p-0 mb-5 pb-5" id="home">
+            <div className="container-fluid p-0 mb-5 pb-5" id={this.props.id}> {/*id="home"*/}
                 <div id="header-carousel" className="carousel slide carousel-fade" data-ride="carousel">
                     <div className="carousel-inner">
                         {carousel.images.map((item, index) => (
@@ -17,6 +17,7 @@ export default class CarouselSection extends Component {
                                         <h1 className="display-1 font-secondary text-white mt-n3 mb-md-4">{carousel.title}</h1>
                                         <div className="d-inline-block border-top border-bottom border-light py-3 px-4">
                                             <h3 className="text-uppercase font-weight-normal text-white m-0" style={{ letterSpacing: `2px` }}>{carousel.subtitle}</h3>
+                                            <h3 className="text-uppercase font-weight-normal text-white m-0" style={{ letterSpacing: `2px` }}>{carousel.weddingdate}</h3>
                                         </div>
                                         <button type="button" className="btn-play mx-auto" data-toggle="modal"
                                             data-src={carousel.slideshow} data-target="#videoModal">
