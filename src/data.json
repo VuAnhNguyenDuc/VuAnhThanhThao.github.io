@@ -1,163 +1,157 @@
 {
-    "title": "Vũ Anh & Thanh Thảo",
-    "navbar": {
-      "groom": "Vũ Anh",
-      "bride": "Thanh Thảo",
-      "left-items": [
-        {
-          "name": "Trang Chủ",
-          "href": "#home"
-        },
-        {
-          "name": "Về Chúng Mình",
-          "href": "#about"
-        },
-        {
-          "name": "Chuyện Tụi Mình",
-          "href": "#story"
-        },
-        {
-          "name": "Thư Viện Ảnh",
-          "href": "#gallery"
-        }
-      ],
-      "right-items": [
-        {
-          "name": "Sự Kiện",
-          "href": "#event"
-        },
-        {
-          "name": "Xác Nhận Dự Tiệc",
-          "href": "#rsvp"
-        },
-        {
-          "name": "Liên Hệ",
-          "href": "#contact"
-        }
-      ]
-    },
-    "carousel": {
-      "title": "Vũ Anh & Thanh Thảo",
-      "subtitle": "We're getting married",
-      "weddingdate": "08-10-2023",
-      "slideshow": "https://www.youtube.com/embed/U6C9VCdHAnY",
-      "images": [
-        "https://lh3.googleusercontent.com/pw/AIL4fc9KCFsS4peKL6xMt8hdaW7nkh42h5sXorXy_-vdtN383ErPbqr43gDMZpeddL1STcxCtuVO_Y7SoT25CHG9XAkjUCBRIhHTnrFtoO-2x70I2BP45Dk=w2400"
-      ]
-    },
-    "about": {
-      "title": "Về Tụi Mình",
-      "groom" : {
-        "title": "Chú Rể",
-        "name": "Vũ Anh",
-        "image": "https://lh3.googleusercontent.com/pw/AIL4fc9Op99VuRyVWotj0PGzT5qw_PpCuW3zwdMyM7kggwpDzRH_8lqKURcNEejJu2uIi7RoqnoTUykyDF0eSIIVAGBcCWXzum-lY4kR7nzCO2sKcaiK4oM=w2400",
-        "description": "Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr."
+  "title": "Vũ Anh & Thanh Thảo",
+  "navbar": {
+    "groom": "Vũ Anh",
+    "bride": "Thanh Thảo",
+    "left-items": [
+      {
+        "name": "Trang Chủ",
+        "id": "home"
       },
-      "bride" : {
-        "title": "Cô Dâu",
-        "name": "Thanh Thảo",
-        "image": "https://lh3.googleusercontent.com/pw/AIL4fc8I40aAUqfnG_ktTFg5NXfZ-SPrUs0UxDd0rBMCQLImLYhcSlPFAKcBWbzkhOVOkQTGDdnMLlZSU4ViF1XNh7ORUmiSy7a-2HETsa3rrVmwOUuspjo=w2400",
-        "description": "Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr."
+      {
+        "name": "Về Chúng Mình",
+        "id": "about"
+      },
+      {
+        "name": "Chuyện Tụi Mình",
+        "id": "story"
+      },
+      {
+        "name": "Thư Viện Ảnh",
+        "id": "gallery"
       }
-    },
-    "story": {
-      "title": "Chuyện Tụi Mình",
-      "subtitle": "Nhật Ký Yêu",
-      "items" : [
-        {
-          "title": "Lần đầu gặp nhau",
-          "date": "01 Tháng Một 2019",
-          "description": "Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.",
-          "image": "https://lh3.googleusercontent.com/pw/AIL4fc9Fn3ESlzrldQhleIbr4A5fg6b_3lw9plnuMg-QOimy570Iy9XxWIEIA1-gTOfCm_Xyvwlo5HpHNElVqFpt5ic8tjWQ0_NfnLO2PKznUHhzCmUDu8s=w2400"
-        },
-        {
-          "title": "Buổi Hẹn Hò Đầu Tiên",
-          "date": "01 Tháng Một 2020",
-          "description": "Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.",
-          "image": "https://lh3.googleusercontent.com/pw/AIL4fc9Fn3ESlzrldQhleIbr4A5fg6b_3lw9plnuMg-QOimy570Iy9XxWIEIA1-gTOfCm_Xyvwlo5HpHNElVqFpt5ic8tjWQ0_NfnLO2PKznUHhzCmUDu8s=w2400"
-        },
-        {
-          "title": "Lời Cầu Hôn",
-          "date": "01 Tháng Một 2021",
-          "description": "Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.",
-          "image": "https://lh3.googleusercontent.com/pw/AIL4fc9Fn3ESlzrldQhleIbr4A5fg6b_3lw9plnuMg-QOimy570Iy9XxWIEIA1-gTOfCm_Xyvwlo5HpHNElVqFpt5ic8tjWQ0_NfnLO2PKznUHhzCmUDu8s=w2400"
-        },
-        {
-          "title": "Lễ Đính Hôn",
-          "date": "01 Tháng Một 2022",
-          "description": "Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor elitr.",
-          "image": "https://lh3.googleusercontent.com/pw/AIL4fc9Fn3ESlzrldQhleIbr4A5fg6b_3lw9plnuMg-QOimy570Iy9XxWIEIA1-gTOfCm_Xyvwlo5HpHNElVqFpt5ic8tjWQ0_NfnLO2PKznUHhzCmUDu8s=w2400"
-        }
-      ]
-    },
-    "gallery": {
-      "title": "Thư Viện Ảnh",
-      "subtitle": "Hình Cưới Của Tụi Mình",
-      "album": {
-        "title": "Xem thêm hình",
-        "href": "https://photos.app.goo.gl/1vZu7qvQ6x4uePkV8"
+    ],
+    "right-items": [
+      {
+        "name": "Sự Kiện",
+        "id": "event"
       },
-      "items": [
-        "https://lh3.googleusercontent.com/pw/AIL4fc9Op99VuRyVWotj0PGzT5qw_PpCuW3zwdMyM7kggwpDzRH_8lqKURcNEejJu2uIi7RoqnoTUykyDF0eSIIVAGBcCWXzum-lY4kR7nzCO2sKcaiK4oM=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc8I40aAUqfnG_ktTFg5NXfZ-SPrUs0UxDd0rBMCQLImLYhcSlPFAKcBWbzkhOVOkQTGDdnMLlZSU4ViF1XNh7ORUmiSy7a-2HETsa3rrVmwOUuspjo=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc96SdMVOFhlVrgNWc1Pc_RmRiy4wq0GcP6yKwp3w2bUBVmgKjKkye7Bhaj_nwtln6otSapyB6R0KPJDrXSUy4xIHq7nS5_NyW-uWGmyzjTGD2U1AKQ=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc9cQ5htkrfHvMk1m4dyHiQEdil8RU69FiRS1WshMiHXabEwGaNrvwA6b_i5dUBYEhNHb26lOC3j-5vp0_v_1dhpYDIscFaY0eHiQmnZGn5TRbz6hAM=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc_vRYNc-rHeaf4-QbTDRwtek11cUf1aXCRr1VxXwqwncWSG_dizkmWiWcYKnfoYaMwIRaet7cxT1sHCuM0KEiPiWm1NyTyRH_pASLviP1f8C586ivs=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc9Dl-54lZR4rmS7tXnNRQscfHostFtGJoQXwD-lwux4vqpGaLT-eqqrIgudhc9qIFpY84avxyfZ92BWhZenRsUirVaYtatEgh1xL7fYQkWamA7iusk=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc8ap9LtNbUprJWy8MBBydMCXLBjONflZR3QRVVbTejUepf_dTx2jwNrWKKcWQiGSIo9DTIsS_uIkHmXlvtoWwgX1Mhk13Ra0v2xlI2pzGI-kMQWeWs=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc8puGvzXhaAKILwvWCsjWDW-u4uAsg3Y-OAC4CIeWJ65PyOVWXsfZ1r17LwXpXrRmYb4flCh_q0W_g16v3LG3SuY1e0MQ8Z2zPNh3Za_cezYieoKaQ=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc9e49FH4mOjZhdDIlM5iJGuXbITRYnvFz0zoTdcsVqL0lLIDHGDc9Mqk-4l6RhaWPhMQ-C3qqtLFV5FhVFQUrKrtR-e7HgliBkd-TD9WXZ0diHvBTY=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc8b3dHXH9R_Kigt7a9-PHYGGciy_FRSMkYzHQ-AybKPHgsNYMqbavrYi0oAOZrMwdh886Zcp7DTzNgqsHmM0NBhX3Dsq7fH2ZJbCyf8DaTrQCbDfms=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc9e49FH4mOjZhdDIlM5iJGuXbITRYnvFz0zoTdcsVqL0lLIDHGDc9Mqk-4l6RhaWPhMQ-C3qqtLFV5FhVFQUrKrtR-e7HgliBkd-TD9WXZ0diHvBTY=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc_UURMoBbZ-tTbKHbDLfILSHjZADCHiJuLMRtcokjGuJ7CfpZMFkiO-dXRBNnHEMEdDJ2yg10Dwj6N3j02LHa23-NTqwHRYeB6wlNzpN_eRCnbZCrI=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc-yisQ56sbnQZKG7pJj3dutu_LTNgbyIP44bYmHk7CcSfBXDZALcP3UBdt7PFkQ2w0_xY21OF2qPA4oOnpIoMBqHlLEEuT5BBPyV4xCba0TJbgskms=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc-giryAXe3NStSQouJ-Kh3xHC-ynR9LiZnYxpK58rPUDU7VnMLFirK2Ve5StzPiqMoJmsCqJ2GJiMTz4-JmyV4ZrlsNBI4qTr5a52JuDaYYvx2WsEI=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc-Qz3ky5JYfFWlycbZxPk8GgxuGXkxJ5es6s95jz3CbGDm-1t28QSLbBRVCuBgOlJNOyseuekaizgdjElX_j-PbRTs2CzNNZ-7cPE-Gqs_mM6A0it0=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc_Aj1tTFp3DHvqJ7FetPR_lAO8syxFRi2u1TSzLZGcomRK-EyoIdVeNpHPsmpIDj6lT8UOVfRVPgiV1zc_GEqCWG7Jg3cOCAH2pJGooIXRsd0GmGfw=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc9RBnyFMoHrG7gOXkpkm-TrUVBFqHpZvF37choWsqJkNkQyDtfrhza4QNF2D3k8umWLmg9-1cIqG-bGnur8l2UhMUWoEZP1HRiyWcQPwdOCVQsIt4w=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc-2YnKcSdsafPPAVSCaQo4zprdmEM9hq8DUIoMZDnwnFOBEpqFw7wZVDXtD924rmW_DhCn27-a40zGIb4xnFSVxmGNgIkNbJx-EipwpxPQFjPZYs_0=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc--ujJ3_lYQS6WpSZIjDsqnSv4iyZyCthRlMMfH5SU00xVhVggRffCGAectND9g8ZBYLhwmxMf8wcvyYcqrsq1DxGkTx1VpL6GJkqhqv4u3sKKxv-g=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc_vYoBSdjbTRUD5dcxQdpJ4LAqb02Yg8YnZL9bQ27WQEZc9WgQfMy4bOVdTXhQa7j_yT6s7veyHqGUKlfuK-y-y7-d02xHK0cbyaz7UVQrvf1d2u2I=w2400",
-        "https://lh3.googleusercontent.com/pw/AIL4fc8uk24CqNzRkjRORq19Xn3T4hTj2dPeWacK_PtJjKGBN_bT4p_3kdfP9veJniUdMHyGgqP60qGcfNpMLJTeDBJqr6GdJmF74AYISOsd8cvBc-vdlC8=w2400"
-      ]
+      {
+        "name": "Xác Nhận Dự Tiệc",
+        "id": "rsvp"
+      },
+      {
+        "name": "Liên Hệ",
+        "id": "contact"
+      }
+    ]
+  },
+  "carousel": {
+    "title": "Vũ Anh & Thanh Thảo",
+    "subtitle": "We're getting married",
+    "weddingdate": "08-10-2023",
+    "slideshow": "https://www.youtube.com/embed/U6C9VCdHAnY",
+    "images": [
+      "https://lh3.googleusercontent.com/pw/AIL4fc9KCFsS4peKL6xMt8hdaW7nkh42h5sXorXy_-vdtN383ErPbqr43gDMZpeddL1STcxCtuVO_Y7SoT25CHG9XAkjUCBRIhHTnrFtoO-2x70I2BP45Dk=w2400"
+    ]
+  },
+  "about": {
+    "title": "Về Tụi Mình",
+    "groom": {
+      "title": "Chú Rể",
+      "name": "Vũ Anh",
+      "image": "https://lh3.googleusercontent.com/pw/AIL4fc9Op99VuRyVWotj0PGzT5qw_PpCuW3zwdMyM7kggwpDzRH_8lqKURcNEejJu2uIi7RoqnoTUykyDF0eSIIVAGBcCWXzum-lY4kR7nzCO2sKcaiK4oM=w2400",
+      "description": " Chàng trai khó gần, đáng ghét nhất chính là anh. "
     },
-    "event": {
-      "title": "Sự Kiện",
-      "subtitle": "Lịch trình cưới của tụi mình",
-      "description:" : "Clita ipsum aliquyam dolor diam dolores elitr nonumy. Rebum sea vero ipsum eirmod tempor kasd. Diam amet lorem erat eos sit lorem elitr justo",
-      "items": [
-        {
-          "title": "Đám hỏi - 06/10/2023",
-          "address": "Nhà Gái - Nhơn Trạch",
-          "datetime": "07:00",
-          "image": "https://lh3.googleusercontent.com/pw/AIL4fc8dZrxDpydkNynJcw9XJ3R2KHqtfbNrwTfcPwr5yJqKpXpLYB9_LYavuX8nE8sVENCAqeNSOj6Do4hee9gTsABnRuZ9LBPEjo7MMelCJF9igq0Z2ZY=w2400",
-          "directions": "https://goo.gl/maps/BVvqR4B5TRXmWmwR8"
-        },
-        {
-          "title": "Tiệc nhà gái - 07/10/2023",
-          "address": "Giáo Xứ Bắc Thần - Nhơn Trạch",
-          "datetime": "09:00",
-          "image": "https://lh3.googleusercontent.com/pw/AIL4fc9Fn3ESlzrldQhleIbr4A5fg6b_3lw9plnuMg-QOimy570Iy9XxWIEIA1-gTOfCm_Xyvwlo5HpHNElVqFpt5ic8tjWQ0_NfnLO2PKznUHhzCmUDu8s=w2400",
-          "directions": "https://goo.gl/maps/kz1aQQyDNeGrXYcB9"
-        },
-        {
-          "title": "Tiệc nhà trai - 08/10/2023",
-          "address": "Adora Hoàng Văn Thụ - Sài Gòn",
-          "datetime": "18:00",
-          "image": "https://lh3.googleusercontent.com/pw/AIL4fc80XVTJTnaf6WkaadM7KH3GeYNF-_L0y2UsgN0IeI7B0WrRi2L2_RcbH4saTX4Zlow68eq2ksRQI3qrB1G9n8z0stodsZWi-N-ViIcXXCse7hxqepI=w2400",
-          "directions": "https://goo.gl/maps/dxMpLEcqTeYXA7FF9"
-        }
-      ]
-    },
-    "rspv": {
-      "title": "Xác Nhận Dự Tiệc",
-      "subtitle": "Tới Chung Vui Với Tụi Mình Nhé"
-    },
-    "footer": {
-      "title": "Xin Cảm Ơn",
-      "email": "vuanhnguyenduc@gmail.com",
-      "phone": "+65 81912895",
-      "copyright": "VuAnhNguyenDuc",
-      "author_website": "https://www.vuanhnguyenduc.com"
+    "bride": {
+      "title": "Cô Dâu",
+      "name": "Thanh Thảo",
+      "image": "https://lh3.googleusercontent.com/pw/AIL4fc8I40aAUqfnG_ktTFg5NXfZ-SPrUs0UxDd0rBMCQLImLYhcSlPFAKcBWbzkhOVOkQTGDdnMLlZSU4ViF1XNh7ORUmiSy7a-2HETsa3rrVmwOUuspjo=w2400",
+      "description": "Em là một cô gái có đôi mắt nhung long lanh như tia nắng đầu tiên, và nụ cười có thể làm cầu vồng xuất hiện sau bất cứ cơn mưa. Mỗi ngày được ở bên em, được nhìn thấy em đều là một ngày vui hơn mọi ngày."
     }
+  },
+  "story": {
+    "title": "Chuyện Tụi Mình",
+    "subtitle": "Nhật Ký Yêu",
+    "items": [
+      {
+        "title": "Lần đầu gặp nhau",
+        "date": "Tháng Ba 2019",
+        "description": "Trong đời có câu CON THẦY VỢ BẠN GÁI CƠ QUAN. yeah! tụi mình quen nhau ở cùng công ty và làm chung một team 😂 . Từ đó chuỗi ngày của anh dev ôm đàn để cưa cẩm em gái tester mỗi khi sắp tan ca",
+        "image": "https://lh3.googleusercontent.com/pw/AIL4fc9Fn3ESlzrldQhleIbr4A5fg6b_3lw9plnuMg-QOimy570Iy9XxWIEIA1-gTOfCm_Xyvwlo5HpHNElVqFpt5ic8tjWQ0_NfnLO2PKznUHhzCmUDu8s=w2400"
+      },
+      {
+        "title": "Buổi Hẹn Hò Đầu Tiên",
+        "date": "01 Tháng Một 2020",
+        "description": "Một chàng trai thích nói và cô gái thích lắng nghe, có lẽ đó là sự bù trừ hợp lý mà dẫn đến sự kết nối giữa hai con người với hai thái cực hoàn toàn trái ngược nhau.",
+        "image": "https://lh3.googleusercontent.com/pw/AIL4fc9Fn3ESlzrldQhleIbr4A5fg6b_3lw9plnuMg-QOimy570Iy9XxWIEIA1-gTOfCm_Xyvwlo5HpHNElVqFpt5ic8tjWQ0_NfnLO2PKznUHhzCmUDu8s=w2400"
+      },
+      {
+        "title": "Lời Cầu Hôn",
+        "date": "01 Tháng Một 2021",
+        "description": "Vào khung trời se lạnh ở Hà Giang, đứng trên vách núi trơ trọi dưới là thung lũng, xa xa kia là dãy núi cao hùng vĩ tạo nên cảnh đẹp không chê vào đâu được và bên cạnh là cô gái mà anh yêu. Lúc này anh cầm tay em và nói về tương lai gần",
+        "image": "https://lh3.googleusercontent.com/pw/AIL4fc9Fn3ESlzrldQhleIbr4A5fg6b_3lw9plnuMg-QOimy570Iy9XxWIEIA1-gTOfCm_Xyvwlo5HpHNElVqFpt5ic8tjWQ0_NfnLO2PKznUHhzCmUDu8s=w2400"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Thư Viện Ảnh",
+    "subtitle": "Hình Cưới Của Tụi Mình",
+    "album": {
+      "title": "Xem thêm hình",
+      "href": "https://photos.app.goo.gl/1vZu7qvQ6x4uePkV8"
+    },
+    "items": [
+      "https://lh3.googleusercontent.com/pw/AIL4fc9Op99VuRyVWotj0PGzT5qw_PpCuW3zwdMyM7kggwpDzRH_8lqKURcNEejJu2uIi7RoqnoTUykyDF0eSIIVAGBcCWXzum-lY4kR7nzCO2sKcaiK4oM=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc8I40aAUqfnG_ktTFg5NXfZ-SPrUs0UxDd0rBMCQLImLYhcSlPFAKcBWbzkhOVOkQTGDdnMLlZSU4ViF1XNh7ORUmiSy7a-2HETsa3rrVmwOUuspjo=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc96SdMVOFhlVrgNWc1Pc_RmRiy4wq0GcP6yKwp3w2bUBVmgKjKkye7Bhaj_nwtln6otSapyB6R0KPJDrXSUy4xIHq7nS5_NyW-uWGmyzjTGD2U1AKQ=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc9cQ5htkrfHvMk1m4dyHiQEdil8RU69FiRS1WshMiHXabEwGaNrvwA6b_i5dUBYEhNHb26lOC3j-5vp0_v_1dhpYDIscFaY0eHiQmnZGn5TRbz6hAM=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc_vRYNc-rHeaf4-QbTDRwtek11cUf1aXCRr1VxXwqwncWSG_dizkmWiWcYKnfoYaMwIRaet7cxT1sHCuM0KEiPiWm1NyTyRH_pASLviP1f8C586ivs=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc9Dl-54lZR4rmS7tXnNRQscfHostFtGJoQXwD-lwux4vqpGaLT-eqqrIgudhc9qIFpY84avxyfZ92BWhZenRsUirVaYtatEgh1xL7fYQkWamA7iusk=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc8ap9LtNbUprJWy8MBBydMCXLBjONflZR3QRVVbTejUepf_dTx2jwNrWKKcWQiGSIo9DTIsS_uIkHmXlvtoWwgX1Mhk13Ra0v2xlI2pzGI-kMQWeWs=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc8puGvzXhaAKILwvWCsjWDW-u4uAsg3Y-OAC4CIeWJ65PyOVWXsfZ1r17LwXpXrRmYb4flCh_q0W_g16v3LG3SuY1e0MQ8Z2zPNh3Za_cezYieoKaQ=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc9e49FH4mOjZhdDIlM5iJGuXbITRYnvFz0zoTdcsVqL0lLIDHGDc9Mqk-4l6RhaWPhMQ-C3qqtLFV5FhVFQUrKrtR-e7HgliBkd-TD9WXZ0diHvBTY=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc8b3dHXH9R_Kigt7a9-PHYGGciy_FRSMkYzHQ-AybKPHgsNYMqbavrYi0oAOZrMwdh886Zcp7DTzNgqsHmM0NBhX3Dsq7fH2ZJbCyf8DaTrQCbDfms=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc9e49FH4mOjZhdDIlM5iJGuXbITRYnvFz0zoTdcsVqL0lLIDHGDc9Mqk-4l6RhaWPhMQ-C3qqtLFV5FhVFQUrKrtR-e7HgliBkd-TD9WXZ0diHvBTY=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc_UURMoBbZ-tTbKHbDLfILSHjZADCHiJuLMRtcokjGuJ7CfpZMFkiO-dXRBNnHEMEdDJ2yg10Dwj6N3j02LHa23-NTqwHRYeB6wlNzpN_eRCnbZCrI=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc-yisQ56sbnQZKG7pJj3dutu_LTNgbyIP44bYmHk7CcSfBXDZALcP3UBdt7PFkQ2w0_xY21OF2qPA4oOnpIoMBqHlLEEuT5BBPyV4xCba0TJbgskms=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc-giryAXe3NStSQouJ-Kh3xHC-ynR9LiZnYxpK58rPUDU7VnMLFirK2Ve5StzPiqMoJmsCqJ2GJiMTz4-JmyV4ZrlsNBI4qTr5a52JuDaYYvx2WsEI=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc-Qz3ky5JYfFWlycbZxPk8GgxuGXkxJ5es6s95jz3CbGDm-1t28QSLbBRVCuBgOlJNOyseuekaizgdjElX_j-PbRTs2CzNNZ-7cPE-Gqs_mM6A0it0=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc_Aj1tTFp3DHvqJ7FetPR_lAO8syxFRi2u1TSzLZGcomRK-EyoIdVeNpHPsmpIDj6lT8UOVfRVPgiV1zc_GEqCWG7Jg3cOCAH2pJGooIXRsd0GmGfw=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc9RBnyFMoHrG7gOXkpkm-TrUVBFqHpZvF37choWsqJkNkQyDtfrhza4QNF2D3k8umWLmg9-1cIqG-bGnur8l2UhMUWoEZP1HRiyWcQPwdOCVQsIt4w=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc-2YnKcSdsafPPAVSCaQo4zprdmEM9hq8DUIoMZDnwnFOBEpqFw7wZVDXtD924rmW_DhCn27-a40zGIb4xnFSVxmGNgIkNbJx-EipwpxPQFjPZYs_0=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc--ujJ3_lYQS6WpSZIjDsqnSv4iyZyCthRlMMfH5SU00xVhVggRffCGAectND9g8ZBYLhwmxMf8wcvyYcqrsq1DxGkTx1VpL6GJkqhqv4u3sKKxv-g=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc_vYoBSdjbTRUD5dcxQdpJ4LAqb02Yg8YnZL9bQ27WQEZc9WgQfMy4bOVdTXhQa7j_yT6s7veyHqGUKlfuK-y-y7-d02xHK0cbyaz7UVQrvf1d2u2I=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc8uk24CqNzRkjRORq19Xn3T4hTj2dPeWacK_PtJjKGBN_bT4p_3kdfP9veJniUdMHyGgqP60qGcfNpMLJTeDBJqr6GdJmF74AYISOsd8cvBc-vdlC8=w2400"
+    ]
+  },
+  "event": {
+    "title": "Sự Kiện",
+    "subtitle": "Lịch trình cưới của tụi mình",
+    "description:": "Clita ipsum aliquyam dolor diam dolores elitr nonumy. Rebum sea vero ipsum eirmod tempor kasd. Diam amet lorem erat eos sit lorem elitr justo",
+    "items": [
+      {
+        "title": "Đám hỏi - 06/10/2023",
+        "address": "Nhà Gái - Nhơn Trạch",
+        "datetime": "07:00",
+        "image": "https://lh3.googleusercontent.com/pw/AIL4fc8dZrxDpydkNynJcw9XJ3R2KHqtfbNrwTfcPwr5yJqKpXpLYB9_LYavuX8nE8sVENCAqeNSOj6Do4hee9gTsABnRuZ9LBPEjo7MMelCJF9igq0Z2ZY=w2400",
+        "directions": "https://goo.gl/maps/BVvqR4B5TRXmWmwR8"
+      },
+      {
+        "title": "Tiệc nhà gái - 07/10/2023",
+        "address": "Giáo Xứ Bắc Thần - Nhơn Trạch",
+        "datetime": "09:00",
+        "image": "https://lh3.googleusercontent.com/pw/AIL4fc9Fn3ESlzrldQhleIbr4A5fg6b_3lw9plnuMg-QOimy570Iy9XxWIEIA1-gTOfCm_Xyvwlo5HpHNElVqFpt5ic8tjWQ0_NfnLO2PKznUHhzCmUDu8s=w2400",
+        "directions": "https://goo.gl/maps/kz1aQQyDNeGrXYcB9"
+      },
+      {
+        "title": "Tiệc nhà trai - 08/10/2023",
+        "address": "Adora Hoàng Văn Thụ - Sài Gòn",
+        "datetime": "18:00",
+        "image": "https://lh3.googleusercontent.com/pw/AIL4fc80XVTJTnaf6WkaadM7KH3GeYNF-_L0y2UsgN0IeI7B0WrRi2L2_RcbH4saTX4Zlow68eq2ksRQI3qrB1G9n8z0stodsZWi-N-ViIcXXCse7hxqepI=w2400",
+        "directions": "https://goo.gl/maps/dxMpLEcqTeYXA7FF9"
+      }
+    ]
+  },
+  "rspv": {
+    "title": "Xác Nhận Dự Tiệc",
+    "subtitle": "Tới Chung Vui Với Tụi Mình Nhé"
+  },
+  "footer": {
+    "title": "Xin Cảm Ơn",
+    "email": "vuanhnguyenduc@gmail.com",
+    "phone": "+65 81912895",
+    "copyright": "VuAnhNguyenDuc",
+    "author_website": "https://www.vuanhnguyenduc.com"
   }
+}

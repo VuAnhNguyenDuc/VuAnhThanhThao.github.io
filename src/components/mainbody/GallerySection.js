@@ -14,7 +14,7 @@ export default class GallerySection extends Component {
 
     render() {
         return (
-            <div className="container-fluid bg-gallery" id="gallery" style={{ padding: `120px 0`, margin: `90px 0` }}>
+            <div className="container-fluid bg-gallery" id={this.props.id} style={{ padding: `120px 0`, margin: `90px 0` }}>
                 <div className="section-title position-relative text-center" style={{ marginBottom: `120px` }}>
                     <h6 className="text-uppercase text-primary mb-3" style={{ letterSpacing: `3px` }}>{gallery.title}</h6>
                     <h1 className="font-secondary display-4 text-white">{gallery.subtitle}</h1>

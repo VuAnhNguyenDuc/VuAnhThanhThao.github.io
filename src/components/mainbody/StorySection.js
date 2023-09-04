@@ -43,7 +43,7 @@ function Element(props) {
 export default class StorySection extends Component {
     render() {
         return (
-            <div className="container-fluid py-5" id="story">
+            <div className="container-fluid py-5" id={this.props.id}>
                 <div className="container pt-5 pb-3">
                     <div className="section-title position-relative text-center">
                         <h6 className="text-uppercase text-primary mb-3" style={{ letterSpacing: `3px` }}>{story.title}</h6>

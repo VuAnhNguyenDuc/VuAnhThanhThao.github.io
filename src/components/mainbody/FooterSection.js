@@ -6,7 +6,7 @@ const footer = data.footer;
 export default class FooterSection extends Component {
     render() {
         return (
-            <div className="container-fluid bg-brown text-white py-5" id="contact" style={{ marginTop: `90px` }}>
+            <div className="container-fluid bg-brown text-white py-5" id={this.props.id} style={{ marginTop: `90px` }}>
                 <div className="container text-center py-5">
                     <div className="section-title position-relative text-center">
                         <h1 className="font-secondary display-3 text-white">{footer.title}</h1>

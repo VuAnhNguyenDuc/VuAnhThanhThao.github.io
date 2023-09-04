@@ -6,7 +6,7 @@ const rspv = data.rspv;
 export default class RSVPSection extends Component {
     render() {
         return (
-            <div className="container-fluid py-5" id="rsvp">
+            <div className="container-fluid py-5" id={this.props.id}>
                 <div className="container py-5">
                     <div className="section-title position-relative text-center">
                         <h6 className="text-uppercase text-primary mb-3" style={{ letterSpacing: `3px` }}>{rspv.title}</h6>
