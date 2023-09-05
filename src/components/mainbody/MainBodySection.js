@@ -8,6 +8,7 @@ import GallerySection from "./GallerySection";
 import WishingSection from "./WishingSection";
 import StorySection from "./StorySection";
 import VideoModalSection from "./VideoModalSection";
+import DonateSection from "./DonateSection";
 
 export default class MainBodySection extends Component {
     render() {
@@ -44,6 +45,10 @@ export default class MainBodySection extends Component {
                 {/* RSVP Start */}
                 <WishingSection id="wishing"/>
                 {/* RSVP End */}
+
+                {/* Donate Start */}
+                <DonateSection id="donate"/>
+                {/* Donate End */}
 
                 {/* Footer Start */}
                 <FooterSection id="contact"/>
