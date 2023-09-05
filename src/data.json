@@ -27,8 +27,8 @@
         "id": "event"
       },
       {
-        "name": "Xác Nhận Dự Tiệc",
-        "id": "rsvp"
+        "name": "Lời Chúc",
+        "id": "wishing"
       },
       {
         "name": "Liên Hệ",
@@ -143,9 +143,31 @@
       }
     ]
   },
-  "rspv": {
-    "title": "Xác Nhận Dự Tiệc",
-    "subtitle": "Tới Chung Vui Với Tụi Mình Nhé"
+  "wishing": {
+    "title": "Lời Hay Ý Đẹp",
+    "subtitle": "Lời Chúc Của Bạn Là Niềm Vui Của Chúng Mình",
+    "form": {
+      "name": {
+        "id": "name",
+        "placeholder": "Tên (hoặc Nickname) Của Bạn (*)",
+        "required": true,
+        "error_message": "Vui lòng nhập tên hoặc nickname của bạn nhé ^^"
+      },
+      "email": {
+        "id": "email",
+        "placeholder": "Email Của Bạn",
+        "required": false
+      },
+      "message": {
+        "id": "message",
+        "placeholder": "Lời Chúc Ý Nghĩa Của Bạn ^^ (*)",
+        "required": true,
+        "error_message": "Vui lòng nhập lời chúc cho tụi mình nhé!"
+      },
+      "submit": {
+        "label": "Gửi Lời Chúc"
+      }
+    }
   },
   "footer": {
     "title": "Xin Cảm Ơn",
