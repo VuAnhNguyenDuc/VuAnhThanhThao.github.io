@@ -31,6 +31,10 @@
         "id": "rsvp"
       },
       {
+        "name": "Mừng Cưới",
+        "id": "donate"
+      },
+      {
         "name": "Liên Hệ",
         "id": "contact"
       }
@@ -146,6 +150,14 @@
   "rspv": {
     "title": "Xác Nhận Dự Tiệc",
     "subtitle": "Tới Chung Vui Với Tụi Mình Nhé"
+  },
+  "donate": {
+    "title": "Mừng Cưới",
+    "subtitle":"Trân Trọng Biết Ơn Mọi Sự Đóng Góp",
+    "bank_account_src" : {
+      "groom": "https://res.cloudinary.com/he9vfmd3s/image/upload/v1693917507/vuanh-thanhthao/donate_groom.png",
+      "bride": "https://res.cloudinary.com/he9vfmd3s/image/upload/v1693917675/vuanh-thanhthao/donate_bride.png"
+    }
   },
   "footer": {
     "title": "Xin Cảm Ơn",
