@@ -27,8 +27,8 @@
         "id": "event"
       },
       {
-        "name": "Xác Nhận Dự Tiệc",
-        "id": "rsvp"
+        "name": "Lời Chúc",
+        "id": "wishing"
       },
       {
         "name": "Mừng Cưới",
@@ -147,16 +147,37 @@
       }
     ]
   },
-  "rspv": {
-    "title": "Xác Nhận Dự Tiệc",
-    "subtitle": "Tới Chung Vui Với Tụi Mình Nhé"
+  "wishing": {
+    "title": "Lời Hay Ý Đẹp",
+    "subtitle": "Lời Chúc Của Bạn Là Niềm Vui Của Chúng Mình",
+    "nickname_phrase": " hay còn gọi là ",
+    "token": "ea6Ry37NFH0kS",
+    "form": {
+      "name": {
+        "id": "name",
+        "placeholder": "Tên Của Bạn (*)",
+        "error_message": "Vui lòng nhập tên hoặc nickname của bạn nhé ^^"
+      },
+      "nickname": {
+        "id": "nickname",
+        "placeholder": "Nickname Của Bạn"
+      },
+      "message": {
+        "id": "message",
+        "placeholder": "Lời Chúc Ý Nghĩa Của Bạn ^^ (*)",
+        "error_message": "Vui lòng nhập lời chúc cho tụi mình nhé!"
+      },
+      "submit": {
+        "label": "Gửi Lời Chúc"
+      }
+    }
   },
   "donate": {
     "title": "Mừng Cưới",
     "subtitle":"Trân Trọng Biết Ơn Mọi Sự Đóng Góp",
     "bank_account_src" : {
-      "groom": "https://res.cloudinary.com/he9vfmd3s/image/upload/v1693917507/vuanh-thanhthao/donate_groom.png",
-      "bride": "https://res.cloudinary.com/he9vfmd3s/image/upload/v1693917675/vuanh-thanhthao/donate_bride.png"
+      "groom": "https://res.cloudinary.com/he9vfmd3s/image/upload/v1693928577/vuanh-thanhthao/bank_account_groom.png",
+      "bride": "https://res.cloudinary.com/he9vfmd3s/image/upload/v1693928576/vuanh-thanhthao/bank_account_bride.png"
     }
   },
   "footer": {

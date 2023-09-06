@@ -30,7 +30,6 @@ export default class EventSection extends Component {
                                     {/*
                                     <p className="mb-0">{item.datetime}</p>
                                     */}
-                                    
                                 </div>
                             </div>
                         ))}               

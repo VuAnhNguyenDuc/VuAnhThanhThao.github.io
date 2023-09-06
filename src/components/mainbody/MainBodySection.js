@@ -5,7 +5,7 @@ import EventSection from "./EventSection";
 import FooterSection from "./FooterSection";
 import FriendsAndFamilySection from "./FriendsAndFamilySection";
 import GallerySection from "./GallerySection";
-import RSVPSection from "./RSVPSection";
+import WishingSection from "./WishingSection";
 import StorySection from "./StorySection";
 import VideoModalSection from "./VideoModalSection";
 import DonateSection from "./DonateSection";
@@ -43,7 +43,7 @@ export default class MainBodySection extends Component {
                 {/* Friends & Family End */}
 
                 {/* RSVP Start */}
-                <RSVPSection id="rsvp"/>
+                <WishingSection id="wishing"/>
                 {/* RSVP End */}
 
                 {/* Donate Start */}
