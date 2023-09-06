@@ -1,16 +1,9 @@
 import React, { Component } from "react";
 import data from "../../data.json";
-import { Octokit } from "@octokit/rest";
 
 const wishing = data.wishing;
 const form = wishing.form;
-
-const API_KEY = `${process.env.REACT_APP_GITHUB_PREFIX}${process.env.REACT_APP_GITHUB_MASK1}${wishing.mask2}`;
-const GISTS_ID = wishing.gist_id;
-
-const octokit = new Octokit({
-    auth: API_KEY
-});
+const WISHING_ENDPOINT = process.env.REACT_APP_SERVER_HOST + process.env.REACT_APP_WISHING_ENDPOINT;
 
 export default class WishingSection extends Component {
     constructor(props) {
@@ -42,7 +35,7 @@ export default class WishingSection extends Component {
         this.setState({message: event.target.value});
     }
 
-    async handleSubmit(event) {
+    handleSubmit(event) {
         var isValid = true;
         event.preventDefault();
         if (this.state.name.length === 0) {
@@ -55,34 +48,30 @@ export default class WishingSection extends Component {
         }
 
         if (isValid) {
-            console.log(API_KEY);
-            var newContent = [...this.state.wishingMessages];
-            newContent.push({
+            this.state.wishingMessages.push({
                 "name": this.state.name,
                 "nickname": this.state.nickname,
                 "message": this.state.message
             });     
-            await octokit.request(`PATCH /gists/${GISTS_ID}`, {
-                gist_id: 'GIST_ID',
-                description: 'An updated gist description',
-                files: {
-                    'vuanh-thanhthao-wishing.json': {
-                        content: JSON.stringify(newContent)
-                    }
-                },
-                headers: {
-                    'X-GitHub-Api-Version': '2022-11-28'
-                }
+            fetch(WISHING_ENDPOINT, {
+                method: 'POST',
+                headers: new Headers({
+                    'Authorization': 'Basic '+btoa(`${process.env.REACT_APP_WISHING_USERNAME}:${wishing.token}`),
+                    'Content-Type': 'application/json'
+                }),
+                body: JSON.stringify([{
+                    "name": this.state.name,
+                    "nickname": this.state.nickname,
+                    "message": this.state.message
+                }])
             })
             .then(response => {
-                console.log(response); 
                 this.setState({
                     name: "",
                     nickname: "",
                     message: "",
                     nameFieldEmpty: false,
-                    messageFieldEmpty: false,
-                    wishingMessages: newContent
+                    messageFieldEmpty: false
                 });
             })
             .catch(error => console.log(error));
@@ -90,12 +79,16 @@ export default class WishingSection extends Component {
     }
 
     componentDidMount() {
-        const wishing_url = process.env.REACT_APP_WISHING_HOST;
-
-        fetch(wishing_url)
-            .then(response => response.json())
-            .then(data => this.setState({wishingMessages: data}))
-            .catch(error => console.log(error));
+        fetch(WISHING_ENDPOINT, {
+            method: 'GET',
+            headers: new Headers({
+                'Authorization': 'Basic '+btoa(`${process.env.REACT_APP_WISHING_USERNAME}:${wishing.token}`),
+                'Content-Type': 'application/json'
+            })
+        })
+        .then(response => response.json())
+        .then(data => this.setState({wishingMessages: data}))
+        .catch(error => console.log(error));
     }
 
     render() {
