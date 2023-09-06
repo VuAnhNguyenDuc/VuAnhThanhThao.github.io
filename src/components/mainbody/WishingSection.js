@@ -1,10 +1,103 @@
 import React, { Component } from "react";
 import data from "../../data.json";
+import { Octokit } from "@octokit/rest";
 
 const wishing = data.wishing;
 const form = wishing.form;
 
+const API_KEY = `${process.env.REACT_APP_GITHUB_PREFIX}${process.env.REACT_APP_GITHUB_MASK1}${wishing.mask2}`;
+const GISTS_ID = wishing.gist_id;
+
+const octokit = new Octokit({
+    auth: API_KEY
+});
+
 export default class WishingSection extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            name: "",
+            nickname: "",
+            message: "",
+            nameFieldEmpty: false,
+            messageFieldEmpty: false,
+            wishingMessages: []
+        }
+
+        this.handleNameChange = this.handleNameChange.bind(this);
+        this.handleNicknameChange = this.handleNicknameChange.bind(this);
+        this.handleMessageChange = this.handleMessageChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+    }
+
+    handleNameChange(event) {
+        this.setState({name: event.target.value});
+    }
+
+    handleNicknameChange(event) {
+        this.setState({nickname: event.target.value});
+    }
+
+    handleMessageChange(event) {
+        this.setState({message: event.target.value});
+    }
+
+    async handleSubmit(event) {
+        var isValid = true;
+        event.preventDefault();
+        if (this.state.name.length === 0) {
+            this.setState({nameFieldEmpty: true});
+            isValid = false;
+        }
+        if (this.state.message.length === 0) {
+            this.setState({messageFieldEmpty: true});
+            isValid = false;
+        }
+
+        if (isValid) {
+            console.log(API_KEY);
+            var newContent = [...this.state.wishingMessages];
+            newContent.push({
+                "name": this.state.name,
+                "nickname": this.state.nickname,
+                "message": this.state.message
+            });     
+            await octokit.request(`PATCH /gists/${GISTS_ID}`, {
+                gist_id: 'GIST_ID',
+                description: 'An updated gist description',
+                files: {
+                    'vuanh-thanhthao-wishing.json': {
+                        content: JSON.stringify(newContent)
+                    }
+                },
+                headers: {
+                    'X-GitHub-Api-Version': '2022-11-28'
+                }
+            })
+            .then(response => {
+                console.log(response); 
+                this.setState({
+                    name: "",
+                    nickname: "",
+                    message: "",
+                    nameFieldEmpty: false,
+                    messageFieldEmpty: false,
+                    wishingMessages: newContent
+                });
+            })
+            .catch(error => console.log(error));
+        }
+    }
+
+    componentDidMount() {
+        const wishing_url = process.env.REACT_APP_WISHING_HOST;
+
+        fetch(wishing_url)
+            .then(response => response.json())
+            .then(data => this.setState({wishingMessages: data}))
+            .catch(error => console.log(error));
+    }
+
     render() {
         return (
             <div className="container-fluid py-5" id={this.props.id}>
@@ -17,37 +110,19 @@ export default class WishingSection extends Component {
                     <div className="row justify-content-center">
                         <div className="col-lg-8">
                             <div className="text-center">
-                                <form>
+                                <form onSubmit={this.handleSubmit}>
                                     <div className="form-row">
                                         <div className="form-group col-sm-6">
-                                            <input id={form.name.id} type="text" className="form-control bg-secondary border-0 py-4 px-3" placeholder={form.name.placeholder}/>
+                                            <input id={form.name.id} value={this.state.name} onChange={this.handleNameChange} type="text" className="form-control bg-secondary border-0 py-4 px-3" placeholder={form.name.placeholder}/>
+                                            {this.state.nameFieldEmpty && <div style={{ color: 'red' }}>{form.name.error_message}</div>}
                                         </div>
                                         <div className="form-group col-sm-6">
-                                            <input id={form.email.id} type="email" className="form-control bg-secondary border-0 py-4 px-3" placeholder={form.email.placeholder}/>
+                                            <input id={form.nickname.id} value={this.state.nickname} onChange={this.handleNicknameChange} type="text" className="form-control bg-secondary border-0 py-4 px-3" placeholder={form.nickname.placeholder}/>
                                         </div>
                                     </div>
-                                    {/*
-                                    <div className="form-row">
-                                        <div className="form-group col-sm-6">
-                                            <select className="form-control bg-secondary border-0" style={{ height: `52px` }}>
-                                                <option>Number of Guest</option>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
-                                            </select>
-                                        </div>
-                                        <div className="form-group col-sm-6">
-                                            <select className="form-control bg-secondary border-0" style={{ height: `52px` }}>
-                                                <option>I'm Attending</option>
-                                                <option>All Events</option>
-                                                <option>Wedding Party</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    */}
                                     <div className="form-group">
-                                        <textarea id={form.message.id} className="form-control bg-secondary border-0 py-2 px-3" rows="5" placeholder={form.message.placeholder} required="required"></textarea>
+                                        <textarea id={form.message.id} value={this.state.message} onChange={this.handleMessageChange} className="form-control bg-secondary border-0 py-2 px-3" rows="5" placeholder={form.message.placeholder}></textarea>
+                                        {this.state.messageFieldEmpty && <div style={{ color: 'red' }}>{form.message.error_message}</div>}
                                     </div>
                                     <div>
                                         <button className="btn btn-primary font-weight-bold py-3 px-5" type="submit">{form.submit.label}</button>
@@ -55,16 +130,16 @@ export default class WishingSection extends Component {
                                 </form>
                             </div>
                         </div>
-                        <div className="col-lg-8 wish-box" style={{overflow: 'hidden', outline: 'none', cursor: '-webkit-grab'}}>
-                            <div class="wish-box-item ">
-                                <strong>Kimmy ^-^</strong>
-                                <p>Nhân ngày đặc biệt này, em chúc Anh Chị luôn luôn hạnh phúc , luôn giữ lửa như những ngày đầu mới yêu, hai đôi tay luôn nắm chặt cùng song hành trong quãng đường còn lại của cuộc đời!</p>
+                        {this.state.wishingMessages.length > 0 && 
+                            <div className="col-lg-8 wish-box" style={{overflow: 'scroll', height: '475px', outline: 'none', cursor: '-webkit-grab'}}>
+                                {this.state.wishingMessages.map((item, index) => (
+                                    <div className="wish-box-item" key={index}>
+                                        <strong>{item.name}</strong>{item.nickname.length > 0 && <span>{`${wishing.nickname_phrase}${item.nickname}`}</span>}
+                                        <p>{item.message}</p>
+                                    </div>
+                                ))}
                             </div>
-                            <div class="wish-box-item ">
-                                <strong>Em Brianna</strong>
-                                <p>Em chúc anh chị có thật nhiều khoảnh khắc và kỉ niệm tuyệt vời trong ngày cưới. Chúc anh chị trăm năm hạnh phúc ạ 🧡</p>
-                            </div>
-                        </div>
+                        }
                     </div>
                 </div>
             </div>

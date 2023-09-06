@@ -12,7 +12,7 @@ export default class NavBar extends Component {
     render() {
         return (
             <nav className="navbar fixed-top shadow-sm navbar-expand-lg bg-brown navbar-dark py-3 py-lg-0 px-lg-5">
-                <button className="navbar-brand d-block d-lg-none" onClick={this.scrollToTop}>
+                <button className="navbar-brand navbar-brand-button d-block d-lg-none" onClick={this.scrollToTop}>
                     <h1 className="font-secondary text-white mb-n2">{navbar.groom} <span className="text-primary">&</span> {navbar.bride}</h1>
                 </button>
                 <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">

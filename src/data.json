@@ -150,22 +150,22 @@
   "wishing": {
     "title": "Lời Hay Ý Đẹp",
     "subtitle": "Lời Chúc Của Bạn Là Niềm Vui Của Chúng Mình",
+    "nickname_phrase": " hay còn gọi là ",
+    "mask2": "itjHFj7KcZBPD40tAOX",
+    "gist_id": "3c485eaec9352966fa2f11065423d13916bff595",
     "form": {
       "name": {
         "id": "name",
-        "placeholder": "Tên (hoặc Nickname) Của Bạn (*)",
-        "required": true,
+        "placeholder": "Tên Của Bạn (*)",
         "error_message": "Vui lòng nhập tên hoặc nickname của bạn nhé ^^"
       },
-      "email": {
-        "id": "email",
-        "placeholder": "Email Của Bạn",
-        "required": false
+      "nickname": {
+        "id": "nickname",
+        "placeholder": "Nickname Của Bạn"
       },
       "message": {
         "id": "message",
         "placeholder": "Lời Chúc Ý Nghĩa Của Bạn ^^ (*)",
-        "required": true,
         "error_message": "Vui lòng nhập lời chúc cho tụi mình nhé!"
       },
       "submit": {
@@ -177,8 +177,8 @@
     "title": "Mừng Cưới",
     "subtitle":"Trân Trọng Biết Ơn Mọi Sự Đóng Góp",
     "bank_account_src" : {
-      "groom": "https://res.cloudinary.com/he9vfmd3s/image/upload/v1693917507/vuanh-thanhthao/donate_groom.png",
-      "bride": "https://res.cloudinary.com/he9vfmd3s/image/upload/v1693917675/vuanh-thanhthao/donate_bride.png"
+      "groom": "https://res.cloudinary.com/he9vfmd3s/image/upload/v1693928577/vuanh-thanhthao/bank_account_groom.png",
+      "bride": "https://res.cloudinary.com/he9vfmd3s/image/upload/v1693928576/vuanh-thanhthao/bank_account_bride.png"
     }
   },
   "footer": {
