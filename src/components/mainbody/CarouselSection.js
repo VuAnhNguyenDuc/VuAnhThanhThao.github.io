@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import data from "../../data.json";
-
-const carousel = data.carousel;
 
 export default class CarouselSection extends Component {
     render() {
+        const carousel = this.props.carousel;
         return (
             <div className="container-fluid p-0 mb-5 pb-5" id={this.props.id}> {/*id="home"*/}
                 <div id="header-carousel" className="carousel slide carousel-fade" data-ride="carousel">

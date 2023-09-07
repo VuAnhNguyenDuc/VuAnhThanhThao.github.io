@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import data from "../../data.json";
-
-const carousel = data.carousel;
 
 export default class VideoModalSection extends Component {
     render() {
+        const carousel = this.props.carousel;
         return (
             <div className="modal fade" id="videoModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog" role="document">

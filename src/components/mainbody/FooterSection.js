@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import data from "../../data.json";
-
-const footer = data.footer;
 
 export default class FooterSection extends Component {
     render() {
+        const footer = this.props.footer;
         return (
             <div className="container-fluid bg-brown text-white py-5" id={this.props.id} style={{ marginTop: `90px` }}>
                 <div className="container text-center py-5">

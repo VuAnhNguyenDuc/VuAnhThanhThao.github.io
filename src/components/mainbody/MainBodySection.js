@@ -12,30 +12,31 @@ import DonateSection from "./DonateSection";
 
 export default class MainBodySection extends Component {
     render() {
+        const data = this.props.data;
         return (
             <div>
                 {/* Carousel Start */}
-                <CarouselSection id="home"/>
+                <CarouselSection id="home" carousel={data.carousel}/>
                 {/* Carousel End */}
 
                 {/* Video Modal Start */}
-                <VideoModalSection/>
+                <VideoModalSection carousel={data.carousel}/>
                 {/* Video Modal End */}
 
                 {/* About Start */}
-                <AboutSection id="about"/>
+                <AboutSection id="about" about={data.about}/>
                 {/* About End */}
 
                 {/* Story Start */}
-                <StorySection id="story"/>
+                <StorySection id="story" story={data.story}/>
                 {/* Story End */}
 
                 {/* Gallery Start */}
-                <GallerySection id="gallery"/>
+                <GallerySection id="gallery" gallery={data.gallery}/>
                 {/* Gallery End */}
 
                 {/* Event Start */}
-                <EventSection id="event"/>
+                <EventSection id="event" event={data.event}/>
                 {/* Event End */}
 
                 {/* Friends & Family Start */}
@@ -43,15 +44,15 @@ export default class MainBodySection extends Component {
                 {/* Friends & Family End */}
 
                 {/* RSVP Start */}
-                <WishingSection id="wishing"/>
+                <WishingSection id="wishing" wishing={data.wishing}/>
                 {/* RSVP End */}
 
                 {/* Donate Start */}
-                <DonateSection id="donate"/>
+                <DonateSection id="donate" donate={data.donate}/>
                 {/* Donate End */}
 
                 {/* Footer Start */}
-                <FooterSection id="contact"/>
+                <FooterSection id="contact" footer={data.footer}/>
                 {/* Footer End */}
             </div>
         );

@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import data from "../../data.json";
-
-const about = data.about;
 
 export default class AboutSection extends Component {
     render() {
+        const about = this.props.about;
         return (
             <div className="container-fluid py-5" id={this.props.id}>
                 <div className="container py-5">
