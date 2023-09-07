@@ -3,6 +3,8 @@ import React, { Component } from "react";
 export default class AboutSection extends Component {
     render() {
         const about = this.props.about;
+        const groom = about.groom;
+        const bride = about.bride;
         return (
             <div className="container-fluid py-5" id={this.props.id}>
                 <div className="container py-5">
@@ -18,10 +20,10 @@ export default class AboutSection extends Component {
                                 <p>{about.groom.description}</p>
                                 <h3 className="font-secondary font-weight-normal text-muted mb-3"><i className="fa fa-male text-primary pr-3"></i>{about.groom.name}</h3>
                                 <div className="position-relative">
-                                    <a className="btn btn-outline-primary btn-square mr-1" href="#"><i className="fab fa-twitter"></i></a>
-                                    <a className="btn btn-outline-primary btn-square mr-1" href="#"><i className="fab fa-facebook-f"></i></a>
-                                    <a className="btn btn-outline-primary btn-square mr-1" href="#"><i className="fab fa-linkedin-in"></i></a>
-                                    <a className="btn btn-outline-primary btn-square" href="#"><i className="fab fa-instagram"></i></a>
+                                    {(groom.urls && groom.urls.twitter) && <a className="btn btn-outline-primary btn-square mr-1" href={groom.urls.twitter} target="_blank"><i className="fab fa-twitter"></i></a>}
+                                    {(groom.urls && groom.urls.facebook) && <a className="btn btn-outline-primary btn-square mr-1" href={groom.urls.facebook} target="_blank"><i className="fab fa-facebook-f"></i></a>}
+                                    {(groom.urls && groom.urls.linkedin) && <a className="btn btn-outline-primary btn-square mr-1" href={groom.urls.linkedin} target="_blank"><i className="fab fa-linkedin-in"></i></a>}
+                                    {(groom.urls && groom.urls.instagram) && <a className="btn btn-outline-primary btn-square" href={groom.urls.instagram} target="_blank"><i className="fab fa-instagram"></i></a>}
                                 </div>
                             </div>
                         </div>
@@ -39,10 +41,10 @@ export default class AboutSection extends Component {
                                 <p>{about.bride.description}</p>
                                 <h3 className="font-secondary font-weight-normal text-muted mb-3"><i className="fa fa-female text-primary pr-3"></i>{about.bride.name}</h3>
                                 <div className="position-relative">
-                                    <a className="btn btn-outline-primary btn-square mr-1" href="#"><i className="fab fa-instagram"></i></a>
-                                    <a className="btn btn-outline-primary btn-square mr-1" href="#"><i className="fab fa-facebook-f"></i></a>
-                                    <a className="btn btn-outline-primary btn-square mr-1" href="#"><i className="fab fa-linkedin-in"></i></a>
-                                    <a className="btn btn-outline-primary btn-square" href="#"><i className="fab fa-instagram"></i></a>
+                                    {(bride.urls && bride.urls.twitter) && <a className="btn btn-outline-primary btn-square mr-1" href={bride.urls.twitter} target="_blank"><i className="fab fa-twitter"></i></a>}
+                                    {(bride.urls && bride.urls.facebook) && <a className="btn btn-outline-primary btn-square mr-1" href={bride.urls.facebook} target="_blank"><i className="fab fa-facebook-f"></i></a>}
+                                    {(bride.urls && bride.urls.linkedin) && <a className="btn btn-outline-primary btn-square mr-1" href={bride.urls.linkedin} target="_blank"><i className="fab fa-linkedin-in"></i></a>}
+                                    {(bride.urls && bride.urls.instagram) && <a className="btn btn-outline-primary btn-square" href={bride.urls.instagram} target="_blank"><i className="fab fa-instagram"></i></a>}
                                 </div>
                             </div>
                         </div>

@@ -55,13 +55,23 @@
       "title": "Chú Rể",
       "name": "Vũ Anh",
       "image": "https://lh3.googleusercontent.com/pw/AIL4fc9Op99VuRyVWotj0PGzT5qw_PpCuW3zwdMyM7kggwpDzRH_8lqKURcNEejJu2uIi7RoqnoTUykyDF0eSIIVAGBcCWXzum-lY4kR7nzCO2sKcaiK4oM=w2400",
-      "description": " Chàng trai khó gần, đáng ghét nhất chính là anh. "
+      "description": " Chàng trai khó gần, đáng ghét nhất chính là anh. ",
+      "urls" : {
+        "facebook": "https://www.facebook.com/vuanh.nguyenduc",
+        "linkedin": "https://www.linkedin.com/in/vuanhnguyenduc/"
+      }
     },
     "bride": {
       "title": "Cô Dâu",
       "name": "Thanh Thảo",
       "image": "https://lh3.googleusercontent.com/pw/AIL4fc8I40aAUqfnG_ktTFg5NXfZ-SPrUs0UxDd0rBMCQLImLYhcSlPFAKcBWbzkhOVOkQTGDdnMLlZSU4ViF1XNh7ORUmiSy7a-2HETsa3rrVmwOUuspjo=w2400",
-      "description": "Em là một cô gái có đôi mắt nhung long lanh như tia nắng đầu tiên, và nụ cười có thể làm cầu vồng xuất hiện sau bất cứ cơn mưa. Mỗi ngày được ở bên em, được nhìn thấy em đều là một ngày vui hơn mọi ngày."
+      "description": "Em là một cô gái có đôi mắt nhung long lanh như tia nắng đầu tiên, và nụ cười có thể làm cầu vồng xuất hiện sau bất cứ cơn mưa. Mỗi ngày được ở bên em, được nhìn thấy em đều là một ngày vui hơn mọi ngày.",
+      "urls" : {
+        "facebook": "https://www.facebook.com/vuanh.nguyenduc",
+        "linkedin": "https://www.linkedin.com/in/vuanhnguyenduc/",
+        "twitter": null,
+        "instagram": null
+      }
     }
   },
   "story": {
@@ -185,6 +195,12 @@
     "email": "vuanhnguyenduc@gmail.com",
     "phone": "+65 81912895",
     "copyright": "VuAnhNguyenDuc",
-    "author_website": "https://www.vuanhnguyenduc.com"
+    "author_website": "https://www.vuanhnguyenduc.com",
+    "urls" : {
+      "twitter": "https://twitter.com",
+      "facebook": "https://www.facebook.com/vuanh.nguyenduc",
+      "linkedin": "https://www.linkedin.com/in/vuanhnguyenduc/",
+      "instagram": "https://www.instagram.com/"
+    }
   }
 }

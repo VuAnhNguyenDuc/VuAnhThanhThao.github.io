@@ -11,10 +11,10 @@ export default class FooterSection extends Component {
                         <i className="far fa-heart text-white"></i>
                     </div>
                     <div className="d-flex justify-content-center mb-4">
-                        <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i className="fab fa-twitter"></i></a>
-                        <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i className="fab fa-facebook-f"></i></a>
-                        <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i className="fab fa-linkedin-in"></i></a>
-                        <a className="btn btn-lg btn-outline-light btn-lg-square" href="#"><i className="fab fa-instagram"></i></a>
+                        {(footer.urls && footer.urls.twitter) && <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href={footer.urls.twitter} target="_blank"><i className="fab fa-twitter"></i></a>}
+                        {(footer.urls && footer.urls.facebook) && <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href={footer.urls.facebook} target="_blank"><i className="fab fa-facebook-f"></i></a>}
+                        {(footer.urls && footer.urls.linkedin) && <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href={footer.urls.linkedin} target="_blank"><i className="fab fa-linkedin-in"></i></a>}
+                        {(footer.urls && footer.urls.instagram) && <a className="btn btn-lg btn-outline-light btn-lg-square" href={footer.urls.instagram} target="_blank"><i className="fab fa-instagram"></i></a>}
                     </div>
                     <div className="d-flex justify-content-center py-2">
                         <p className="text-white" href="#">{footer.email}</p>
