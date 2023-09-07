@@ -1,8 +1,4 @@
 import React, { Component } from "react";
-import data from "../../data.json";
-
-const wishing = data.wishing;
-const form = wishing.form;
 const WISHING_ENDPOINT = process.env.REACT_APP_SERVER_HOST + process.env.REACT_APP_WISHING_ENDPOINT;
 
 export default class WishingSection extends Component {
@@ -56,7 +52,7 @@ export default class WishingSection extends Component {
             fetch(WISHING_ENDPOINT, {
                 method: 'POST',
                 headers: new Headers({
-                    'Authorization': 'Basic '+btoa(`${process.env.REACT_APP_WISHING_USERNAME}:${wishing.token}`),
+                    'Authorization': 'Basic '+btoa(`${process.env.REACT_APP_WISHING_USERNAME}:${this.props.wishing.token}`),
                     'Content-Type': 'application/json'
                 }),
                 body: JSON.stringify([{
@@ -82,7 +78,7 @@ export default class WishingSection extends Component {
         fetch(WISHING_ENDPOINT, {
             method: 'GET',
             headers: new Headers({
-                'Authorization': 'Basic '+btoa(`${process.env.REACT_APP_WISHING_USERNAME}:${wishing.token}`),
+                'Authorization': 'Basic '+btoa(`${process.env.REACT_APP_WISHING_USERNAME}:${this.props.wishing.token}`),
                 'Content-Type': 'application/json'
             })
         })
@@ -92,6 +88,8 @@ export default class WishingSection extends Component {
     }
 
     render() {
+        const wishing = this.props.wishing;
+        const form = wishing.form;
         return (
             <div className="container-fluid py-5" id={this.props.id}>
                 <div className="container py-5">

@@ -1,15 +1,14 @@
 import React, { Component } from "react";
-import data from "../../data.json";
 import { Link, animateScroll as scroll } from "react-scroll";
-
-const navbar = data.navbar;
 
 export default class NavBar extends Component {
     scrollToTop = () => {
         scroll.scrollToTop();
-      };
+    };
 
     render() {
+        const data = this.props.data;
+        const navbar = data.navbar;
         return (
             <nav className="navbar fixed-top shadow-sm navbar-expand-lg bg-brown navbar-dark py-3 py-lg-0 px-lg-5">
                 <button className="navbar-brand navbar-brand-button d-block d-lg-none" onClick={this.scrollToTop}>

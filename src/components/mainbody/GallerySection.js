@@ -1,18 +1,9 @@
 import React, { Component } from "react";
-import data from "../../data.json";
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 
-const gallery = data.gallery;
-
 export default class GallerySection extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            
-        }
-    }
-
     render() {
+        const gallery = this.props.gallery;
         return (
             <div className="container-fluid bg-gallery" id={this.props.id} style={{ padding: `120px 0`, margin: `90px 0` }}>
                 <div className="section-title position-relative text-center" style={{ marginBottom: `120px` }}>

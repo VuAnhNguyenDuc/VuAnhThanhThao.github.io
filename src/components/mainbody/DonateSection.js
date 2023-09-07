@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import data from "../../data.json";
-
-const donate = data.donate;
 
 export default class DonateSection extends Component {
     render() {
+        const donate = this.props.donate;
         return (
             <div className="container-fluid py-5" id={this.props.id}>
                 <div className="container py-5">

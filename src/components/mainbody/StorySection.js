@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import data from "../../data.json";
-
-const story = data.story;
 
 function Element(props) {
     const item = props.item;
@@ -42,6 +39,7 @@ function Element(props) {
 
 export default class StorySection extends Component {
     render() {
+        const story = this.props.story;
         return (
             <div className="container-fluid py-5" id={this.props.id}>
                 <div className="container pt-5 pb-3">

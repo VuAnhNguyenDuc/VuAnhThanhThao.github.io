@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import data from "../../data.json";
-
-const event = data.event;
 
 export default class EventSection extends Component {
     render() {
+        const event = this.props.event;
         return (
             <div className="container-fluid py-5" id={this.props.id}>
                 <div className="container py-5">
