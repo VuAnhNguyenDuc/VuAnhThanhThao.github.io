@@ -27,12 +27,12 @@
         "id": "event"
       },
       {
-        "name": "Lời Chúc",
-        "id": "wishing"
-      },
-      {
         "name": "Mừng Cưới",
         "id": "donate"
+      },
+      {
+        "name": "Lời Chúc",
+        "id": "wishing"
       },
       {
         "name": "Liên Hệ",
