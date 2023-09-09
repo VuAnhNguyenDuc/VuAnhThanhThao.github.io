@@ -38,13 +38,13 @@ export default class MainBodySection extends Component {
                 <EventSection id="event" event={data.event}/>
                 {/* Event End */}
 
-                {/* RSVP Start */}
-                <WishingSection id="wishing" wishing={data.wishing}/>
-                {/* RSVP End */}
-
                 {/* Donate Start */}
                 <DonateSection id="donate" donate={data.donate}/>
                 {/* Donate End */}
+
+                {/* RSVP Start */}
+                <WishingSection id="wishing" wishing={data.wishing}/>
+                {/* RSVP End */}
 
                 {/* Footer Start */}
                 <FooterSection id="contact" footer={data.footer}/>
