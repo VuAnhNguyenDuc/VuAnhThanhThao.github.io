@@ -3,7 +3,6 @@ import AboutSection from "./AboutSection";
 import CarouselSection from "./CarouselSection";
 import EventSection from "./EventSection";
 import FooterSection from "./FooterSection";
-import FriendsAndFamilySection from "./FriendsAndFamilySection";
 import GallerySection from "./GallerySection";
 import WishingSection from "./WishingSection";
 import StorySection from "./StorySection";
@@ -38,10 +37,6 @@ export default class MainBodySection extends Component {
                 {/* Event Start */}
                 <EventSection id="event" event={data.event}/>
                 {/* Event End */}
-
-                {/* Friends & Family Start */}
-                {/* <FriendsAndFamilySection /> */}
-                {/* Friends & Family End */}
 
                 {/* RSVP Start */}
                 <WishingSection id="wishing" wishing={data.wishing}/>

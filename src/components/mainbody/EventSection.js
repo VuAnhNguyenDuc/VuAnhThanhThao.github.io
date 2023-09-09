@@ -24,7 +24,7 @@ export default class EventSection extends Component {
                                     <h4 className="mb-3">{item.title}</h4>
                                     <h5 className="mb-2">{item.address}</h5>
                                     <p className="mb-0">{item.datetime}</p>
-                                    <a className="mb-0" href={item.directions} target="_blank">Xem Bản Đồ</a>
+                                    <a className="mb-0" href={item.directions} target="_blank" rel="noreferrer">Xem Bản Đồ</a>
                                     {/*
                                     <p className="mb-0">{item.datetime}</p>
                                     */}
