@@ -11,7 +11,7 @@ export default class GallerySection extends Component {
                     <h1 className="font-secondary display-4 text-white">{gallery.subtitle}</h1>
                     <i className="far fa-heart text-white"></i>
                 </div>
-                <ResponsiveMasonry columnsCountBreakPoints={{300: 1, 500: 2, 700: 3, 900: 4}}>
+                <ResponsiveMasonry columnsCountBreakPoints={{300: 1, 576: 2, 1200: 3}}>
                     <Masonry gutter="10px">
                         {gallery.items.map((image, index) => (
                             <div className="gallery-item" key={index}>

@@ -43,7 +43,7 @@
   "carousel": {
     "title": "Vũ Anh & Thanh Thảo",
     "subtitle": "We're getting married",
-    "weddingdate": "08-10-2023",
+    "weddingdate": "07-10-2023",
     "slideshow": "https://www.youtube.com/embed/U6C9VCdHAnY",
     "images": [
       "https://lh3.googleusercontent.com/pw/AIL4fc9KCFsS4peKL6xMt8hdaW7nkh42h5sXorXy_-vdtN383ErPbqr43gDMZpeddL1STcxCtuVO_Y7SoT25CHG9XAkjUCBRIhHTnrFtoO-2x70I2BP45Dk=w2400"
@@ -55,8 +55,8 @@
       "title": "Chú Rể",
       "name": "Vũ Anh",
       "image": "https://lh3.googleusercontent.com/pw/AIL4fc9Op99VuRyVWotj0PGzT5qw_PpCuW3zwdMyM7kggwpDzRH_8lqKURcNEejJu2uIi7RoqnoTUykyDF0eSIIVAGBcCWXzum-lY4kR7nzCO2sKcaiK4oM=w2400",
-      "description": " Chàng trai khó gần, đáng ghét nhất chính là anh. ",
-      "urls" : {
+      "description": "Chàng trai của tháng 12 với bề ngoài lạnh lùng nhưng trái tim ấm ấp. Em yêu tháng 12 và em cũng yêu anh.",
+      "urls": {
         "facebook": "https://www.facebook.com/vuanh.nguyenduc",
         "linkedin": "https://www.linkedin.com/in/vuanhnguyenduc/"
       }
@@ -66,7 +66,7 @@
       "name": "Thanh Thảo",
       "image": "https://lh3.googleusercontent.com/pw/AIL4fc8I40aAUqfnG_ktTFg5NXfZ-SPrUs0UxDd0rBMCQLImLYhcSlPFAKcBWbzkhOVOkQTGDdnMLlZSU4ViF1XNh7ORUmiSy7a-2HETsa3rrVmwOUuspjo=w2400",
       "description": "Em là một cô gái có đôi mắt nhung long lanh như tia nắng đầu tiên, và nụ cười có thể làm cầu vồng xuất hiện sau bất cứ cơn mưa. Mỗi ngày được ở bên em, được nhìn thấy em đều là một ngày vui hơn mọi ngày.",
-      "urls" : {
+      "urls": {
         "facebook": "https://www.facebook.com/vuanh.nguyenduc",
         "linkedin": "https://www.linkedin.com/in/vuanhnguyenduc/",
         "twitter": null,
@@ -79,22 +79,58 @@
     "subtitle": "Nhật Ký Yêu",
     "items": [
       {
-        "title": "Lần đầu gặp nhau",
+        "title": "Lần đầu gặp nhau🌵",
         "date": "Tháng Ba 2019",
-        "description": "Trong đời có câu CON THẦY VỢ BẠN GÁI CƠ QUAN. yeah! tụi mình quen nhau ở cùng công ty và làm chung một team 😂 . Từ đó chuỗi ngày của anh dev ôm đàn để cưa cẩm em gái tester mỗi khi sắp tan ca",
-        "image": "https://lh3.googleusercontent.com/pw/AIL4fc9Fn3ESlzrldQhleIbr4A5fg6b_3lw9plnuMg-QOimy570Iy9XxWIEIA1-gTOfCm_Xyvwlo5HpHNElVqFpt5ic8tjWQ0_NfnLO2PKznUHhzCmUDu8s=w2400"
+        "description": "Trong đời có câu CON THẦY, VỢ BẠN, GÁI CƠ QUAN. yeah! tụi mình quen nhau ở cùng công ty và làm chung một team 😂 . Từ đó trong team xuất hiện anh dev ôm đàn để cưa cẩm em gái tester",
+        "image": "https://lh3.googleusercontent.com/pw/AIL4fc8ryIWsrw5GlgN4taC2UJn_CBVovVRs39BpZsuSfa1b7lKj_HHqvY__mCiHmLAsDRVwtQLfBaKd7apPiRgB5RYU20YVLgE_00kU4IeNpIMoN6XJjz0=w2400"
       },
       {
-        "title": "Buổi Hẹn Hò Đầu Tiên",
-        "date": "01 Tháng Một 2020",
-        "description": "Một chàng trai thích nói và cô gái thích lắng nghe, có lẽ đó là sự bù trừ hợp lý mà dẫn đến sự kết nối giữa hai con người với hai thái cực hoàn toàn trái ngược nhau.",
-        "image": "https://lh3.googleusercontent.com/pw/AIL4fc9Fn3ESlzrldQhleIbr4A5fg6b_3lw9plnuMg-QOimy570Iy9XxWIEIA1-gTOfCm_Xyvwlo5HpHNElVqFpt5ic8tjWQ0_NfnLO2PKznUHhzCmUDu8s=w2400"
+        "title": "Buổi Hẹn Hò Đầu Tiên 🪴",
+        "date": "Tháng Tám 2020",
+        "description": "Một chàng trai thích nói và cô gái thích lắng nghe, có lẽ đó là sự bù trừ hợp lý mà dẫn đến sự kết nối giữa hai con người với hai thái cực hoàn toàn trái ngược nhau .",
+        "image": "https://lh3.googleusercontent.com/pw/AIL4fc8mMDqHf_I29qnNTjOM5Bo4D44Oq1ckfubxXKALsKXEciBoWqVNtAOPhk0Mfb-ilOdXa48WLkXJZ7_m6O7Q5KguQg61OQNDewfYnWXcfRzxFEACv_8=w2400"
       },
       {
-        "title": "Lời Cầu Hôn",
-        "date": "01 Tháng Một 2021",
-        "description": "Vào khung trời se lạnh ở Hà Giang, đứng trên vách núi trơ trọi dưới là thung lũng, xa xa kia là dãy núi cao hùng vĩ tạo nên cảnh đẹp không chê vào đâu được và bên cạnh là cô gái mà anh yêu. Lúc này anh cầm tay em và nói về tương lai gần",
-        "image": "https://lh3.googleusercontent.com/pw/AIL4fc9Fn3ESlzrldQhleIbr4A5fg6b_3lw9plnuMg-QOimy570Iy9XxWIEIA1-gTOfCm_Xyvwlo5HpHNElVqFpt5ic8tjWQ0_NfnLO2PKznUHhzCmUDu8s=w2400"
+        "title": "KMS Outing 🍀",
+        "date": "Tháng Mười 2020",
+        "description": "Thời điểm dịch COVID sắp bùng phát. Mọi hoạt động đều bị cấm, chỉ có thể đi loay quanh Sài Gòn. Nhưng không sao vẫn vui vì mình còn được gặp nhau.",
+        "image": "https://lh3.googleusercontent.com/pw/AIL4fc8AQEEaHTBmnhFDNWvupLVHx45kcVBjRza6Dcc7nRX3Z3LcvrSG0AZjiuqCT_H9uKIVtcyDMKGflHhNAk2FPGCFoOnNVhTwk0yI0OlREGYrMbpYWm4=w2400"
+      },
+      {
+        "title": "Đà Lạt mộng mơ 🌲",
+        "date": "Tháng Mười Một 2020",
+        "description": "Anh cầm đàn guitar ngân nga câu \"Thật lòng anh muốn, và rất muốn, nhẹ nhàng giữ em cho riêng mình, để nỗi nhớ vu vơ sẽ không còn là cơn mơ\" ",
+        "image": "https://lh3.googleusercontent.com/pw/AIL4fc8fNElUPykYriPzrt46qUKDnHLJ96roYE7nLP4VGMRGOh6cqPOQwTI6TZQ-xOwVQh4aAk1h1_slPrcYtT9eQQIih3jUgXbyKPHce0MTKQPFOMSBxFc=w2400"
+      },
+      {
+        "title": "KMS Year End Party 🌈",
+        "date": "Tháng Một 2021",
+        "description": "Từ lí do đứa thích hát, đứa thì thích nhảy nên quyết định thành lập 1 tiết mục góp vui. Tụi mình vui và mong mọi người cũng vui hehe",
+        "image": "https://lh3.googleusercontent.com/pw/AIL4fc9fkthjdgc3yvx1dHEi7c-5dd3K6tfnAcvK9yZ9__lFfP--FkvqGgT7a9XLVu-A36QHJKG0sDxJkI5AFqp1XZilBVkb-uoIKCKiFDEhwyTK0ZLkYxg=w2400"
+      },
+      {
+        "title": "Mùa Giáng Sinh không lạnh 🌲",
+        "date": "Tháng Mười Hai 2021",
+        "description":"Tay lạnh nhưng trái tim ấm áp vì giờ đây hai tim đã cùng chung nhịp đập 💓💓",
+        "image": "https://lh3.googleusercontent.com/pw/AIL4fc9KSDIsP5-Np5TgpvBXgKtcRKhzpaTHwfwuxJppB8Kq3aS--2qse8pnkx6Tkk0jkxguFkqF354Vy4aNZjWiposfmYQxWEz5ei3VKhyjsAvmaSdM-8A=w2400"
+      },
+      {
+        "title": "Đức Mẹ núi cúi 💐",
+        "date": "Tháng hai 2022",
+        "description": "Lúc khó khăn nhất hay hạnh phúc nhất tụi mình luôn chạy đến Mẹ và xin cho tụi con thấu hiểu nhau hơn.",
+        "image": "https://lh3.googleusercontent.com/pw/AIL4fc9e5N6z44f-KksSzI30vrMcK30zOUBqDjNBHeZ8U8m7F_HewYfnaambMDbyfrBVV0fzMTzUZRYRf93jktaGanbTGxP9IcpuB91ef_t3LJXUcZDAkPA=w2400"
+      },
+      {
+        "title": "Singapore - Thăm anh 🥀",
+        "date": "Tháng Tám 2022",
+        "description": "Chuỗi yêu xa lại bắt đầu, yêu xa khó lắm, yêu xa nhớ lắm, yêu xa cô đơn nhiều lắm. Mong đến ngày gặp nhau. 🍂🍂",
+        "image": "https://lh3.googleusercontent.com/pw/AIL4fc_9PMNetq1hmHwrGv1BV8hmqRKCTgRwnidQecs7-NgWuVLMwhfqQFndtCwCp3YmFQqsiR_BzrFNyhwWLsBQq5ncWCDtUkenf45lT6l3YPdMzcQBZ6k=w2400"
+      },
+      {
+        "title": "Lời Cầu Hôn 🌻",
+        "date": "01 Tháng Một 2023",
+        "description": "Vào khung trời se lạnh ở Hà Giang, đứng trên vách núi trơ trọi dưới là thung lũng, xa xa kia là dãy núi cao hùng vĩ tạo nên cảnh đẹp không chê vào đâu được và bên cạnh là cô gái mà anh yêu. Lúc này anh cầm tay em và nói về tương lai gần 🌸🌸",
+        "image": "https://lh3.googleusercontent.com/pw/AIL4fc-hIsqURuse5Pet0g1zLXdZnBdtBWDJI3co6UKV0cV86d-QlqAFe-B0xfA6zc3mfqreLPlAz1ge0WGR43oc9C20IdcA93gCTsJdKFbN3X7b_YJW4kQ=w2400"
       }
     ]
   },
@@ -106,26 +142,27 @@
       "href": "https://photos.app.goo.gl/1vZu7qvQ6x4uePkV8"
     },
     "items": [
-      "https://lh3.googleusercontent.com/pw/AIL4fc9Op99VuRyVWotj0PGzT5qw_PpCuW3zwdMyM7kggwpDzRH_8lqKURcNEejJu2uIi7RoqnoTUykyDF0eSIIVAGBcCWXzum-lY4kR7nzCO2sKcaiK4oM=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc8I40aAUqfnG_ktTFg5NXfZ-SPrUs0UxDd0rBMCQLImLYhcSlPFAKcBWbzkhOVOkQTGDdnMLlZSU4ViF1XNh7ORUmiSy7a-2HETsa3rrVmwOUuspjo=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc9UyKkvQ4JzxA6hKcUZNk9eTP9YhWFGdtIYCCsIswbEkYnSZcJOGtPT4pLWmPWexSzS8izHNj9Bq44gYZU22JA2mX7z9HYn2lfTRmgrjaL95okAALY=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc-hF-KC6kjUGyFWyu8WTMlJCGXIeiADSs_I8LFFNpSeRF0QLpJVZNiTXk24yJeOyaO27_v5u614IFkGmkftWQo2vZmFGmzgSAltvht6tkRPXuMsQok=w2400",
       "https://lh3.googleusercontent.com/pw/AIL4fc96SdMVOFhlVrgNWc1Pc_RmRiy4wq0GcP6yKwp3w2bUBVmgKjKkye7Bhaj_nwtln6otSapyB6R0KPJDrXSUy4xIHq7nS5_NyW-uWGmyzjTGD2U1AKQ=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc9cQ5htkrfHvMk1m4dyHiQEdil8RU69FiRS1WshMiHXabEwGaNrvwA6b_i5dUBYEhNHb26lOC3j-5vp0_v_1dhpYDIscFaY0eHiQmnZGn5TRbz6hAM=w2400",
       "https://lh3.googleusercontent.com/pw/AIL4fc_vRYNc-rHeaf4-QbTDRwtek11cUf1aXCRr1VxXwqwncWSG_dizkmWiWcYKnfoYaMwIRaet7cxT1sHCuM0KEiPiWm1NyTyRH_pASLviP1f8C586ivs=w2400",
       "https://lh3.googleusercontent.com/pw/AIL4fc9Dl-54lZR4rmS7tXnNRQscfHostFtGJoQXwD-lwux4vqpGaLT-eqqrIgudhc9qIFpY84avxyfZ92BWhZenRsUirVaYtatEgh1xL7fYQkWamA7iusk=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc8ap9LtNbUprJWy8MBBydMCXLBjONflZR3QRVVbTejUepf_dTx2jwNrWKKcWQiGSIo9DTIsS_uIkHmXlvtoWwgX1Mhk13Ra0v2xlI2pzGI-kMQWeWs=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc8puGvzXhaAKILwvWCsjWDW-u4uAsg3Y-OAC4CIeWJ65PyOVWXsfZ1r17LwXpXrRmYb4flCh_q0W_g16v3LG3SuY1e0MQ8Z2zPNh3Za_cezYieoKaQ=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc-TyfQfiIFOS9Fh5rIaHR_CiWcnMM9vDi0qnjwD2Tw9xOIQrkUqPhpdAlmPiyydFvhXs2js_N4zhSdj8rrVmQ7KKJNOhS9TtLrq-RQZHEm3l_nO730=w2400",
       "https://lh3.googleusercontent.com/pw/AIL4fc9e49FH4mOjZhdDIlM5iJGuXbITRYnvFz0zoTdcsVqL0lLIDHGDc9Mqk-4l6RhaWPhMQ-C3qqtLFV5FhVFQUrKrtR-e7HgliBkd-TD9WXZ0diHvBTY=w2400",
       "https://lh3.googleusercontent.com/pw/AIL4fc8b3dHXH9R_Kigt7a9-PHYGGciy_FRSMkYzHQ-AybKPHgsNYMqbavrYi0oAOZrMwdh886Zcp7DTzNgqsHmM0NBhX3Dsq7fH2ZJbCyf8DaTrQCbDfms=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc9e49FH4mOjZhdDIlM5iJGuXbITRYnvFz0zoTdcsVqL0lLIDHGDc9Mqk-4l6RhaWPhMQ-C3qqtLFV5FhVFQUrKrtR-e7HgliBkd-TD9WXZ0diHvBTY=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc-vr56ZSeb1_FogT30Ur2-YGvK7U8Ot7m60MSgNeU3wC0ZaoRELPGs9H8cc1EXec5lxIZFKaCuvgN-JN_7QaWtLLC8v_Xmbo2_XpkBfRPh__Re1_nE=w2400",
       "https://lh3.googleusercontent.com/pw/AIL4fc_UURMoBbZ-tTbKHbDLfILSHjZADCHiJuLMRtcokjGuJ7CfpZMFkiO-dXRBNnHEMEdDJ2yg10Dwj6N3j02LHa23-NTqwHRYeB6wlNzpN_eRCnbZCrI=w2400",
       "https://lh3.googleusercontent.com/pw/AIL4fc-yisQ56sbnQZKG7pJj3dutu_LTNgbyIP44bYmHk7CcSfBXDZALcP3UBdt7PFkQ2w0_xY21OF2qPA4oOnpIoMBqHlLEEuT5BBPyV4xCba0TJbgskms=w2400",
       "https://lh3.googleusercontent.com/pw/AIL4fc-giryAXe3NStSQouJ-Kh3xHC-ynR9LiZnYxpK58rPUDU7VnMLFirK2Ve5StzPiqMoJmsCqJ2GJiMTz4-JmyV4ZrlsNBI4qTr5a52JuDaYYvx2WsEI=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc-Qz3ky5JYfFWlycbZxPk8GgxuGXkxJ5es6s95jz3CbGDm-1t28QSLbBRVCuBgOlJNOyseuekaizgdjElX_j-PbRTs2CzNNZ-7cPE-Gqs_mM6A0it0=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc8s24YNFPBnU8p71fZzqjuS81O_8Ezj385AIN7UWsQjRYDFVrhc46_5Pi4xIed6beJ0wExI4xGhC-finEcoMEPdEBD_Z4sXRRWN9ashwbd9U-c6y2Y=w2400",
       "https://lh3.googleusercontent.com/pw/AIL4fc_Aj1tTFp3DHvqJ7FetPR_lAO8syxFRi2u1TSzLZGcomRK-EyoIdVeNpHPsmpIDj6lT8UOVfRVPgiV1zc_GEqCWG7Jg3cOCAH2pJGooIXRsd0GmGfw=w2400",
       "https://lh3.googleusercontent.com/pw/AIL4fc9RBnyFMoHrG7gOXkpkm-TrUVBFqHpZvF37choWsqJkNkQyDtfrhza4QNF2D3k8umWLmg9-1cIqG-bGnur8l2UhMUWoEZP1HRiyWcQPwdOCVQsIt4w=w2400",
       "https://lh3.googleusercontent.com/pw/AIL4fc-2YnKcSdsafPPAVSCaQo4zprdmEM9hq8DUIoMZDnwnFOBEpqFw7wZVDXtD924rmW_DhCn27-a40zGIb4xnFSVxmGNgIkNbJx-EipwpxPQFjPZYs_0=w2400",
       "https://lh3.googleusercontent.com/pw/AIL4fc--ujJ3_lYQS6WpSZIjDsqnSv4iyZyCthRlMMfH5SU00xVhVggRffCGAectND9g8ZBYLhwmxMf8wcvyYcqrsq1DxGkTx1VpL6GJkqhqv4u3sKKxv-g=w2400",
       "https://lh3.googleusercontent.com/pw/AIL4fc_vYoBSdjbTRUD5dcxQdpJ4LAqb02Yg8YnZL9bQ27WQEZc9WgQfMy4bOVdTXhQa7j_yT6s7veyHqGUKlfuK-y-y7-d02xHK0cbyaz7UVQrvf1d2u2I=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc-uu33UZb_qenWU3yMS2b2n-WMs6CZxPOt0BgNCOXjPP91yjGP-dWsl-6pe0ZeZ6i7v9319P8nxf0W5KDB6eAWOftpKpfB5Q5MwSmg7wvMXhOA4_ho=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc85oo5gghrGV2zxuCae_NI_iXKaRb9tsbgsGzJozTUURea32H9UOZTQcX5UHSy5nZ-lKfmL-_INZOmiBw5rKgDrs-p4E0gtiLsjSiqGOrYDVVjzWto=w2400",
+      "https://lh3.googleusercontent.com/pw/AIL4fc-K2mV2uk64tQEyCuCJXfIeIaq6E7vhtCLcAbXTzJdnJHjWZ5tkIyB-n83Ms_cU4hM_oYnR24A97D4sWmTvJFJVwQ3uhVd2WshdpjcV2dgEYaQhV64=w2400",
       "https://lh3.googleusercontent.com/pw/AIL4fc8uk24CqNzRkjRORq19Xn3T4hTj2dPeWacK_PtJjKGBN_bT4p_3kdfP9veJniUdMHyGgqP60qGcfNpMLJTeDBJqr6GdJmF74AYISOsd8cvBc-vdlC8=w2400"
     ]
   },
@@ -160,13 +197,13 @@
   "wishing": {
     "title": "Lời Hay Ý Đẹp",
     "subtitle": "Lời Chúc Của Bạn Là Niềm Vui Của Chúng Mình",
-    "nickname_phrase": " hay còn gọi là ",
+    "nickname_phrase": " - ",
     "token": "ea6Ry37NFH0kS",
     "form": {
       "name": {
         "id": "name",
         "placeholder": "Tên Của Bạn (*)",
-        "error_message": "Vui lòng nhập tên hoặc nickname của bạn nhé ^^"
+        "error_message": "Vui lòng nhập tên của bạn nhé ^^"
       },
       "nickname": {
         "id": "nickname",
@@ -184,8 +221,8 @@
   },
   "donate": {
     "title": "Mừng Cưới",
-    "subtitle":"Trân Trọng Biết Ơn Mọi Sự Đóng Góp",
-    "bank_account_src" : {
+    "subtitle": "Trân Trọng Cảm Ơn Những Món Quà Ý Nghĩa",
+    "bank_account_src": {
       "groom": "https://res.cloudinary.com/he9vfmd3s/image/upload/v1693928577/vuanh-thanhthao/bank_account_groom.png",
       "bride": "https://res.cloudinary.com/he9vfmd3s/image/upload/v1693928576/vuanh-thanhthao/bank_account_bride.png"
     }
@@ -196,7 +233,7 @@
     "phone": "+65 81912895",
     "copyright": "VuAnhNguyenDuc",
     "author_website": "https://www.vuanhnguyenduc.com",
-    "urls" : {
+    "urls": {
       "twitter": "https://twitter.com",
       "facebook": "https://www.facebook.com/vuanh.nguyenduc",
       "linkedin": "https://www.linkedin.com/in/vuanhnguyenduc/",
