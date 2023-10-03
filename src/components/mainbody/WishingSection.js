@@ -125,7 +125,7 @@ export default class WishingSection extends Component {
                             <div className="col-lg-8 wish-box" style={{overflow: 'scroll', height: '475px', outline: 'none', cursor: '-webkit-grab'}}>
                                 {this.state.wishingMessages.map((item, index) => (
                                     <div className="wish-box-item" key={index}>
-                                        <strong>{item.name}</strong>{item.nickname.length > 0 && <span>{`${wishing.nickname_phrase}${item.nickname}`}</span>}
+                                        <strong>{item.name}</strong>{item.nickname && item.nickname.length > 0 && <span>{`${wishing.nickname_phrase}${item.nickname}`}</span>}
                                         <p>{item.message}</p>
                                     </div>
                                 ))}
