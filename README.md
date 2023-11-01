@@ -13,3 +13,7 @@ Current Bank Account Card:
 https://www.canva.com/design/DAFtk4xEBGY/96M6B7jr-5M8YT60pmW4IQ/edit?category=tACZCsHw0pA
 
 https://docs.github.com/en/free-pro-team@latest/rest/gists/gists?apiVersion=2022-11-28#update-a-gist
+
+https://dirask.com/posts/React-set-web-page-title-dynamically-D7X0Pp
+
+https://www.tutorialspoint.com/how-to-set-parent-state-from-children-component-in-reactjs#:~:text=Sometimes%2C%20we%20require%20to%20set,set%20the%20parent%20component's%20state.
