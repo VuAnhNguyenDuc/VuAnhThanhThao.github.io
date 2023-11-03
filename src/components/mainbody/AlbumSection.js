@@ -1,5 +1,6 @@
 import React from "react";
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+import Measure from 'react-measure';
 
 function AlbumSection({ sectionTitle, albums, selectedAlbum, handleAlbumSelect }) {
     return (
@@ -27,12 +28,16 @@ function AlbumSection({ sectionTitle, albums, selectedAlbum, handleAlbumSelect }
                 <ResponsiveMasonry columnsCountBreakPoints={{300: 1, 576: 2, 1200: 3}}>
                     <Masonry gutter="5px">
                         {selectedAlbum.images.map((image, index) => (
-                            <div className="gallery-item" key={index}>
-                                <img className="img-fluid w-100" key={index} src={generateImageSrc(image)} alt={image.id} style={{ width: "100%", display: "block" }}/>
-                                <a href={generateImageSrc(image)} data-lightbox="gallery">
-                                    <i className="fa fa-2x fa-plus text-white"></i>
-                                </a>
-                            </div>
+                            <Measure key={index}>
+                                {({ measureRef }) => (
+                                    <div className="gallery-item" ref={measureRef}>
+                                        <img className="img-fluid w-100" key={index} referrerpolicy="no-referrer" src={generateImageSrc(image)} alt={image.id} style={{ width: "100%", display: "block" }}/>
+                                        <a href={generateImageSrc(image)} data-lightbox="gallery">
+                                            <i className="fa fa-2x fa-plus text-white"></i>
+                                        </a>
+                                    </div>
+                                )}
+                            </Measure>
                         ))}
                     </Masonry>
                 </ResponsiveMasonry>

@@ -8,7 +8,7 @@ function Element(props) {
         return (
             <div className="row">
                 <div className="col-md-6 text-center text-md-right">
-                    <img className="img-fluid mr-md-3" src={item.image} alt={item.title}/>
+                    <img className="img-fluid mr-md-3" referrerpolicy="no-referrer" src={item.image} alt={item.title}/>
                 </div>
                 <div className="col-md-6 text-center text-md-left">
                     <div className="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
@@ -30,7 +30,7 @@ function Element(props) {
                     </div>
                 </div>
                 <div className="col-md-6 text-center text-md-left">
-                    <img className="img-fluid ml-md-3" src={item.image} alt={item.title}/>
+                    <img className="img-fluid ml-md-3" referrerpolicy="no-referrer" src={item.image} alt={item.title}/>
                 </div>
             </div>
         );

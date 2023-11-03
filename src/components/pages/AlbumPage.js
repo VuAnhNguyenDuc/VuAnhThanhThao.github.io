@@ -24,11 +24,14 @@ function AlbumPage() {
     const handleAlbumSelect = (event) => {
         event.preventDefault();
         const albumId = event.target.id;
-        setSelectedAlbum(albumsMap.get(albumId));
+        const chosenAlbum = albumsMap.get(albumId);
+        setSelectedAlbum(chosenAlbum);
         setSearchParams({id: buildAlbumPatternFromId(albumsMap.get(albumId))});
+        document.title = sectionTitle + " - " + chosenAlbum.title;
     }
 
     useEffect(() => {
+        var pageTitle = sectionTitle;
         if (JSON.stringify(selectedAlbum) === '{}') {
             var albumId = getAlbumIdFromPattern(searchParams.get('id'));
             if (albumId) {
@@ -36,7 +39,10 @@ function AlbumPage() {
             } else {
                 setSelectedAlbum(albums[0]);
             }
+        } else {
+            pageTitle = sectionTitle + " - " + selectedAlbum.title;
         }
+        document.title = pageTitle;
     }, []);
 
     return (

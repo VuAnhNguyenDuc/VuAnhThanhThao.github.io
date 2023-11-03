@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route } from "react-router-dom"
 import HomePage from "./components/pages/HomePage";
-import WeddingStoryPage from "./components/pages/WeddingStoryPage";
 import AlbumPage from "./components/pages/AlbumPage";
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={ <HomePage data={data}/> } />
-        <Route path="/story" element={ <WeddingStoryPage data={data}/> } />
         <Route path="/album" element={ <AlbumPage data={data}/> } />
       </Routes>
     </div>

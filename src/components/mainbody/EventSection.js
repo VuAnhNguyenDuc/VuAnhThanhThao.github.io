@@ -20,7 +20,7 @@ export default class EventSection extends Component {
                         {event.items.map((item, index) => (
                             <div className={index === event.items.length - 1 ? "col-md-4" : "col-md-4 border-right border-primary"} key={index}>
                                 <div className="text-center text-md-center mr-md-3 mb-4 mb-md-0">
-                                    <img className="img-fluid mb-4" src={item.image} alt={item.title}/>
+                                    <img className="img-fluid mb-4" referrerpolicy="no-referrer" src={item.image} alt={item.title}/>
                                     <h4 className="mb-3">{item.title}</h4>
                                     <h5 className="mb-2">{item.address}</h5>
                                     <p className="mb-0">{item.datetime}</p>
