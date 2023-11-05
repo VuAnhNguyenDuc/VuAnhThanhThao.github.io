@@ -15,7 +15,7 @@ export default class GallerySection extends Component {
                     <Masonry gutter="10px">
                         {gallery.items.map((image, index) => (
                             <div className="gallery-item" key={index}>
-                                <img className="img-fluid w-100" referrerpolicy="no-referrer" key={index} src={image} alt={image} style={{ width: "100%", display: "block" }}/>
+                                <img className="img-fluid w-100" referrerPolicy="no-referrer" key={index} src={image} alt={image} style={{ width: "100%", display: "block" }}/>
                                 <a href={image} data-lightbox="gallery">
                                     <i className="fa fa-2x fa-plus text-white"></i>
                                 </a>

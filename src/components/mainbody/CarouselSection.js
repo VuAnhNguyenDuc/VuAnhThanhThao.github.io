@@ -9,7 +9,7 @@ export default class CarouselSection extends Component {
                     <div className="carousel-inner">
                         {carousel.images.map((item, index) => (
                             <div className={index === 0 ? "carousel-item position-relative active" : "carousel-item position-relative"} style={{ height: `100vh`, minHeight: `400px` }} key={index}>
-                                <img className="position-absolute w-100 h-100" referrerpolicy="no-referrer" src={item} style={{ objectFit: `cover` }} alt={carousel.title}/>
+                                <img className="position-absolute w-100 h-100" referrerPolicy="no-referrer" src={item} style={{ objectFit: `cover` }} alt={carousel.title}/>
                                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                     <div className="p-3" style={{ maxWidth: `900px` }}>
                                         <h1 className="display-1 font-secondary text-white mt-n3 mb-md-4">{carousel.title}</h1>

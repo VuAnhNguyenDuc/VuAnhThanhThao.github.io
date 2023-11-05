@@ -1,6 +1,7 @@
 import React from "react";
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 import Measure from 'react-measure';
+import OptimizedImage from "./OptimizedImage";
 
 function AlbumSection({ sectionTitle, albums, selectedAlbum, handleAlbumSelect }) {
     return (
@@ -31,10 +32,15 @@ function AlbumSection({ sectionTitle, albums, selectedAlbum, handleAlbumSelect }
                             <Measure key={index}>
                                 {({ measureRef }) => (
                                     <div className="gallery-item" ref={measureRef}>
-                                        <img className="img-fluid w-100" key={index} referrerpolicy="no-referrer" src={generateImageSrc(image)} alt={image.id} style={{ width: "100%", display: "block" }}/>
+                                        <OptimizedImage id={image.id} url={generateImageSrc(image)} width={image.width} height={image.height} blur_hash={image.blur_hash} />
                                         <a href={generateImageSrc(image)} data-lightbox="gallery">
                                             <i className="fa fa-2x fa-plus text-white"></i>
                                         </a>
+                                        {/** 
+                                        <img className="img-fluid w-100" loading="lazy" key={index} 
+                                            referrerPolicy="no-referrer" src={generateImageSrc(image)} alt={image.id} style={{ width: "100%", display: "block" }}
+                                            />
+                                        */}
                                     </div>
                                 )}
                             </Measure>

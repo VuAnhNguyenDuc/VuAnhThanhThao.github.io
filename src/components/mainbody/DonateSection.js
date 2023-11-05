@@ -14,13 +14,13 @@ export default class DonateSection extends Component {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="text-center text-md-center mr-md-3 mb-4 mb-md-0">
-                                <img className="img-fluid mb-4" referrerpolicy="no-referrer" src={donate.bank_account_src.groom} alt={donate.bank_account_src.groom}/>
+                                <img className="img-fluid mb-4" referrerPolicy="no-referrer" src={donate.bank_account_src.groom} alt={donate.bank_account_src.groom}/>
                             </div>
                         </div>
 
                         <div className="col-md-6">
                             <div className="text-center text-md-center mr-md-3 mb-4 mb-md-0">
-                                <img className="img-fluid mb-4" referrerpolicy="no-referrer" src={donate.bank_account_src.bride} alt={donate.bank_account_src.bride}/>
+                                <img className="img-fluid mb-4" referrerPolicy="no-referrer" src={donate.bank_account_src.bride} alt={donate.bank_account_src.bride}/>
                             </div>
                         </div>           
                     </div>
