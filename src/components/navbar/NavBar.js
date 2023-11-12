@@ -1,5 +1,24 @@
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
+import { Link as RedirectLink } from "react-router-dom";
+
+function NavBarItem(props) {
+    const item = props.item;
+    const index = props.index;
+    if (item.redirect && item.redirect === true) {
+        return (
+            <RedirectLink className="nav-item nav-link" key={index} to={item.id}>
+                {item.name}
+            </RedirectLink>
+        );
+    } else {
+        return (
+            <Link activeClass="active" className="nav-item nav-link" key={index} to={item.id} spy={true} smooth={true} offset={-70} duration={500}>
+                {item.name}
+            </Link>
+        );
+    }
+}
 
 export default class NavBar extends Component {
     scrollToTop = () => {
@@ -20,9 +39,7 @@ export default class NavBar extends Component {
                 <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div className="navbar-nav ml-auto py-0">
                         {navbar["left-items"].map((item, index) => (
-                            <Link activeClass="active" className="nav-item nav-link" key={index} to={item.id} spy={true} smooth={true} offset={-70} duration={500}>
-                                {item.name}
-                            </Link>
+                            <NavBarItem index={index} item={item} />
                         ))}
                     </div>
                     <button className="navbar-brand navbar-brand-button mx-5 d-none d-lg-block" onClick={this.scrollToTop}>
@@ -30,9 +47,7 @@ export default class NavBar extends Component {
                     </button>
                     <div className="navbar-nav mr-auto py-0">
                         {navbar["right-items"].map((item, index) => (
-                            <Link activeClass="active" className="nav-item nav-link" key={index} to={item.id} spy={true} smooth={true} offset={-70} duration={500}>
-                                {item.name}
-                            </Link>
+                            <NavBarItem index={index} item={item} />
                         ))}
                     </div>
                 </div>

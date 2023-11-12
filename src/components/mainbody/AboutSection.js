@@ -28,12 +28,12 @@ export default class AboutSection extends Component {
                             </div>
                         </div>
                         <div className="col-md-6 p-0" style={{ minHeight: `400px` }}>
-                            <img className="position-absolute w-100 h-100" src={about.groom.image} style={{ objectFit: `cover` }} alt={about.groom.title}/>
+                            <img className="position-absolute w-100 h-100" referrerPolicy="no-referrer" src={about.groom.image} style={{ objectFit: `cover` }} alt={about.groom.title}/>
                         </div>
                     </div>
                     <div className="row m-0">
                         <div className="col-md-6 p-0" style={{ minHeight: `400px` }}>
-                            <img className="position-absolute w-100 h-100" src={about.bride.image} style={{ objectFit: `cover` }} alt={about.bride.title}/>
+                            <img className="position-absolute w-100 h-100" referrerPolicy="no-referrer" src={about.bride.image} style={{ objectFit: `cover` }} alt={about.bride.title}/>
                         </div>
                         <div className="col-md-6 p-0 text-center text-md-left">
                             <div className="h-100 d-flex flex-column justify-content-center bg-secondary p-5">

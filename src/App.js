@@ -1,6 +1,7 @@
-import NavBar from './components/navbar/NavBar';
-import MainBodySection from './components/mainbody/MainBodySection';
 import React, { useState, useEffect } from 'react';
+import { Routes, Route } from "react-router-dom"
+import HomePage from "./components/pages/HomePage";
+import AlbumPage from "./components/pages/AlbumPage";
 
 function App() {
   const [data, setData] = useState(null);
@@ -14,17 +15,10 @@ function App() {
   }, []);
   return (
     <div className="App">
-      { data &&
-        <section>
-          {/* NavBar Start */}
-          <NavBar data={data} />
-          {/* NavBar End */}
-
-          {/* Main Body Start */}
-          <MainBodySection data={data} />
-          {/* Main Body End */}
-        </section>
-      }
+      <Routes>
+        <Route path="/" element={ <HomePage data={data}/> } />
+        <Route path="/album" element={ <AlbumPage data={data}/> } />
+      </Routes>
     </div>
   );
 }
