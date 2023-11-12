@@ -3,9 +3,9 @@ import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 import Measure from 'react-measure';
 import OptimizedImage from "./OptimizedImage";
 
-function AlbumSection({ sectionTitle, albums, selectedAlbum, handleAlbumSelect }) {
+function AlbumSection({id, sectionTitle, albums, selectedAlbum, handleAlbumSelect }) {
     return (
-        <div className="container-fluid py-5" id="family">
+        <div className="container-fluid py-5" id={id}>
             <div className="container pt-5 pb-3">
                 <div className="section-title position-relative text-center">
                     <h6 className="text-uppercase text-primary mb-3" style={{ letterSpacing: `3px` }}>{sectionTitle}</h6>

@@ -18,7 +18,8 @@
       },
       {
         "name": "Thư Viện Ảnh",
-        "id": "gallery"
+        "redirect": true,
+        "id": "/album"
       }
     ],
     "right-items": [
@@ -44,6 +45,7 @@
     "title": "Vũ Anh & Thanh Thảo",
     "subtitle": "We're getting married",
     "weddingdate": "07-10-2023",
+    "video_modal_enable": true,
     "slideshow": "https://www.youtube.com/embed/U6C9VCdHAnY",
     "images": [
       "https://lh3.googleusercontent.com/pw/AIL4fc9KCFsS4peKL6xMt8hdaW7nkh42h5sXorXy_-vdtN383ErPbqr43gDMZpeddL1STcxCtuVO_Y7SoT25CHG9XAkjUCBRIhHTnrFtoO-2x70I2BP45Dk=w2400"
@@ -136,34 +138,12 @@
   },
   "gallery": {
     "title": "Thư Viện Ảnh",
-    "subtitle": "Hình Cưới Của Tụi Mình",
+    "subtitle": "Mời Quý Vị Vào Trang Thư Viện Ảnh",
     "album": {
-      "title": "Xem thêm hình",
-      "href": "https://photos.app.goo.gl/1vZu7qvQ6x4uePkV8"
+      "title": "Xem hình",
+      "href": "/album"
     },
     "items": [
-      "https://lh3.googleusercontent.com/pw/AIL4fc9UyKkvQ4JzxA6hKcUZNk9eTP9YhWFGdtIYCCsIswbEkYnSZcJOGtPT4pLWmPWexSzS8izHNj9Bq44gYZU22JA2mX7z9HYn2lfTRmgrjaL95okAALY=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc-hF-KC6kjUGyFWyu8WTMlJCGXIeiADSs_I8LFFNpSeRF0QLpJVZNiTXk24yJeOyaO27_v5u614IFkGmkftWQo2vZmFGmzgSAltvht6tkRPXuMsQok=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc96SdMVOFhlVrgNWc1Pc_RmRiy4wq0GcP6yKwp3w2bUBVmgKjKkye7Bhaj_nwtln6otSapyB6R0KPJDrXSUy4xIHq7nS5_NyW-uWGmyzjTGD2U1AKQ=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc_vRYNc-rHeaf4-QbTDRwtek11cUf1aXCRr1VxXwqwncWSG_dizkmWiWcYKnfoYaMwIRaet7cxT1sHCuM0KEiPiWm1NyTyRH_pASLviP1f8C586ivs=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc9Dl-54lZR4rmS7tXnNRQscfHostFtGJoQXwD-lwux4vqpGaLT-eqqrIgudhc9qIFpY84avxyfZ92BWhZenRsUirVaYtatEgh1xL7fYQkWamA7iusk=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc-TyfQfiIFOS9Fh5rIaHR_CiWcnMM9vDi0qnjwD2Tw9xOIQrkUqPhpdAlmPiyydFvhXs2js_N4zhSdj8rrVmQ7KKJNOhS9TtLrq-RQZHEm3l_nO730=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc9e49FH4mOjZhdDIlM5iJGuXbITRYnvFz0zoTdcsVqL0lLIDHGDc9Mqk-4l6RhaWPhMQ-C3qqtLFV5FhVFQUrKrtR-e7HgliBkd-TD9WXZ0diHvBTY=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc8b3dHXH9R_Kigt7a9-PHYGGciy_FRSMkYzHQ-AybKPHgsNYMqbavrYi0oAOZrMwdh886Zcp7DTzNgqsHmM0NBhX3Dsq7fH2ZJbCyf8DaTrQCbDfms=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc-vr56ZSeb1_FogT30Ur2-YGvK7U8Ot7m60MSgNeU3wC0ZaoRELPGs9H8cc1EXec5lxIZFKaCuvgN-JN_7QaWtLLC8v_Xmbo2_XpkBfRPh__Re1_nE=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc_UURMoBbZ-tTbKHbDLfILSHjZADCHiJuLMRtcokjGuJ7CfpZMFkiO-dXRBNnHEMEdDJ2yg10Dwj6N3j02LHa23-NTqwHRYeB6wlNzpN_eRCnbZCrI=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc-yisQ56sbnQZKG7pJj3dutu_LTNgbyIP44bYmHk7CcSfBXDZALcP3UBdt7PFkQ2w0_xY21OF2qPA4oOnpIoMBqHlLEEuT5BBPyV4xCba0TJbgskms=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc-giryAXe3NStSQouJ-Kh3xHC-ynR9LiZnYxpK58rPUDU7VnMLFirK2Ve5StzPiqMoJmsCqJ2GJiMTz4-JmyV4ZrlsNBI4qTr5a52JuDaYYvx2WsEI=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc8s24YNFPBnU8p71fZzqjuS81O_8Ezj385AIN7UWsQjRYDFVrhc46_5Pi4xIed6beJ0wExI4xGhC-finEcoMEPdEBD_Z4sXRRWN9ashwbd9U-c6y2Y=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc_Aj1tTFp3DHvqJ7FetPR_lAO8syxFRi2u1TSzLZGcomRK-EyoIdVeNpHPsmpIDj6lT8UOVfRVPgiV1zc_GEqCWG7Jg3cOCAH2pJGooIXRsd0GmGfw=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc9RBnyFMoHrG7gOXkpkm-TrUVBFqHpZvF37choWsqJkNkQyDtfrhza4QNF2D3k8umWLmg9-1cIqG-bGnur8l2UhMUWoEZP1HRiyWcQPwdOCVQsIt4w=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc-2YnKcSdsafPPAVSCaQo4zprdmEM9hq8DUIoMZDnwnFOBEpqFw7wZVDXtD924rmW_DhCn27-a40zGIb4xnFSVxmGNgIkNbJx-EipwpxPQFjPZYs_0=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc--ujJ3_lYQS6WpSZIjDsqnSv4iyZyCthRlMMfH5SU00xVhVggRffCGAectND9g8ZBYLhwmxMf8wcvyYcqrsq1DxGkTx1VpL6GJkqhqv4u3sKKxv-g=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc_vYoBSdjbTRUD5dcxQdpJ4LAqb02Yg8YnZL9bQ27WQEZc9WgQfMy4bOVdTXhQa7j_yT6s7veyHqGUKlfuK-y-y7-d02xHK0cbyaz7UVQrvf1d2u2I=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc-uu33UZb_qenWU3yMS2b2n-WMs6CZxPOt0BgNCOXjPP91yjGP-dWsl-6pe0ZeZ6i7v9319P8nxf0W5KDB6eAWOftpKpfB5Q5MwSmg7wvMXhOA4_ho=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc85oo5gghrGV2zxuCae_NI_iXKaRb9tsbgsGzJozTUURea32H9UOZTQcX5UHSy5nZ-lKfmL-_INZOmiBw5rKgDrs-p4E0gtiLsjSiqGOrYDVVjzWto=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc-K2mV2uk64tQEyCuCJXfIeIaq6E7vhtCLcAbXTzJdnJHjWZ5tkIyB-n83Ms_cU4hM_oYnR24A97D4sWmTvJFJVwQ3uhVd2WshdpjcV2dgEYaQhV64=w2400",
-      "https://lh3.googleusercontent.com/pw/AIL4fc8uk24CqNzRkjRORq19Xn3T4hTj2dPeWacK_PtJjKGBN_bT4p_3kdfP9veJniUdMHyGgqP60qGcfNpMLJTeDBJqr6GdJmF74AYISOsd8cvBc-vdlC8=w2400"
     ]
   },
   "event": {

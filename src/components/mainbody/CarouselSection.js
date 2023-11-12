@@ -17,10 +17,12 @@ export default class CarouselSection extends Component {
                                             {carousel.subtitle && <h3 className="text-uppercase font-weight-normal text-white m-0" style={{ letterSpacing: `2px` }}>{carousel.subtitle}</h3>}
                                             {carousel.weddingdate && <h3 className="text-uppercase font-weight-normal text-white m-0" style={{ letterSpacing: `2px` }}>{carousel.weddingdate}</h3>}     
                                         </div>
-                                        <button type="button" className="btn-play mx-auto" data-toggle="modal"
-                                            data-src={carousel.slideshow} data-target="#videoModal">
-                                            <span></span>
-                                        </button>
+                                        {carousel.video_modal_enable && carousel.video_modal_enable === true && 
+                                            <button type="button" className="btn-play mx-auto" data-toggle="modal"
+                                                data-src={carousel.slideshow} data-target="#videoModal">
+                                                <span></span>
+                                            </button>
+                                        }
                                     </div>
                                 </div>
                             </div>

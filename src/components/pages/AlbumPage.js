@@ -5,17 +5,20 @@ import FooterSection from "../mainbody/FooterSection";
 import WishingSection from "../mainbody/WishingSection";
 import NavBar from "../navbar/NavBar";
 import data from "../../data.json";
-import albums_data from "../../vuanh-thanhthao-albums.json";
+import albums_data from "../../albums-page.json";
 import { useSearchParams } from 'react-router-dom';
 import AlbumSection from "../mainbody/AlbumSection";
+import VideoSection from "../mainbody/VideoSection";
 
 const DASH_CHARACTER = "-";
 
 function AlbumPage() {
-    const [searchParams, setSearchParams] = useSearchParams()
-    const [sectionTitle] = useState(albums_data.section_title);
-    const [albums, setAlbums] = useState(albums_data.albums);
-    const [albumsMap, setAlbumsMap] = useState(getAlbumsMap(albums_data.albums));
+    const [searchParams, setSearchParams] = useSearchParams();
+    const [sectionTitle] = useState(albums_data.title);
+    const [carousel] = useState(albums_data.carousel);
+    const [video] = useState(albums_data.video);
+    const [albums] = useState(albums_data.albums);
+    const [albumsMap] = useState(getAlbumsMap(albums_data.albums));
     const [selectedAlbum, setSelectedAlbum] = useState({});
 
     const IMAGES_URL = process.env.REACT_APP_IMAGES_BANK;
@@ -49,10 +52,10 @@ function AlbumPage() {
         <div>
             { albums && albums.length > 0 && selectedAlbum &&
                 <div>
-                    <NavBar data={data} />
-                    <CarouselSection id="home" carousel={data.carousel}/>
-                    <VideoModalSection carousel={data.carousel}/>
-                    <AlbumSection sectionTitle={sectionTitle} albums={albums}
+                    <NavBar data={albums_data} />
+                    <CarouselSection id="home" carousel={carousel}/>
+                    <VideoSection id="video" title={video.title} subtitle={video.subtitle} video={video.item} />
+                    <AlbumSection id="album" sectionTitle={sectionTitle} albums={albums}
                             selectedAlbum={selectedAlbum}
                             handleAlbumSelect={handleAlbumSelect}/>
                     <WishingSection id="wishing" wishing={data.wishing}/>
